@@ -1,0 +1,29 @@
+.footer {
+  font-size: 13px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer .d-flex {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer .footer-social {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.footer .footer-social+.footer-social {
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .footer .d-flex {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .footer .footer-social {
+    margin-top: 0;
+  }
+}

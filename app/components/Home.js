@@ -1,4 +1,5 @@
 var React = require('react');
+var WolfCover = require('./../images/calling-a-wolf-a-wolf.jpg');
 
 function Home () {
   return (
@@ -6,7 +7,7 @@ function Home () {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <img src="http://www.alexsperellis.com/kavehakbar/calling-a-wolf-a-wolf.jpg" alt="Calling A Wolf A Wolf" className="img-fluid" />
+            <img src={WolfCover} alt="Calling A Wolf A Wolf" className="img-fluid" />
           </div>
           <div className="col-md-8">
             <h6 className="section-header">NEWS</h6>

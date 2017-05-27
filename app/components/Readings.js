@@ -1,4 +1,5 @@
 var React = require('react');
+var ReadingsImg = require('./../images/readings.jpg');
 
 function Readings () {
   return (
@@ -6,7 +7,7 @@ function Readings () {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <img src="http://www.alexsperellis.com/kavehakbar/readings.jpg" alt="Upcoming and Past Readings" className="img-fluid" />
+            <img src={ReadingsImg} alt="Upcoming and Past Readings" className="img-fluid" />
           </div>
           <div className="col-md-8">
             <h6 className="section-header">UPCOMING READINGS</h6>

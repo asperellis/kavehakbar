@@ -1,4 +1,5 @@
 var React = require('react');
+var AboutImg = require('./../images/readings.jpg');
 
 function About () {
   return (
@@ -6,7 +7,7 @@ function About () {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <img src="http://www.alexsperellis.com/kavehakbar/kaveh.jpg" alt="Kaveh Akbar" className="img-fluid" />
+            <img src={AboutImg} alt="Kaveh Akbar" className="img-fluid" />
           </div>
           <div className="col-md-8">
             <h6 className="section-header">ABOUT KAVEH</h6>

@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactRouter = require('react-router-dom');
-var Router = ReactRouter.BrowserRouter;
+var Router = ReactRouter.HashRouter;
 var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Header = require('./Header/Header');
@@ -25,7 +25,7 @@ class App extends React.Component {
                           <Route path='/readings' component={Readings} />
                           <Route path='/words' component={Words} />
                           <Route render={function(){
-                              return <section><div className="container"><div className="row"><div className='col-md-12'><h1 className='center'>Oops</h1><p>Sorry, this page does not exist.</p></div></div></div></section>;
+                              return <section><div className="container"><div className="row"><div className='col-md-12'><h1 className='center'>{'Oops'}</h1><p>{'Sorry, this page does not exist.'}</p></div></div></div></section>;
                           }} />
                       </Switch>
                     </main>

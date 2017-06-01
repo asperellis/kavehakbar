@@ -35,13 +35,13 @@ class Header extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-md-4">
-                <Link title='Kaveh Akbar' to='/' onClick={this.closeNav}><h1 className="logo">KAVEH<br className="hidden-sm-down" />AKBAR</h1></Link>
+                <Link title='Kaveh Akbar' to='/' onClick={this.closeNav}><h1 className="logo">{'KAVEH'}<br className="hidden-sm-down" />{'AKBAR'}</h1></Link>
               </div>
               <div className="col-md-8">
                 <div className="row hidden-md-up">
                   <div className="col-md-12">
                     <nav className="mobile-nav">
-                      <a onClick={this.handleMobileNav} className="mobile-nav-toggle" title="Expand Menu">MENU</a>
+                      <a onClick={this.handleMobileNav} className="mobile-nav-toggle" title="Expand Menu">{'MENU'}</a>
                     </nav>
                   </div>
                 </div>

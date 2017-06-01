@@ -7,7 +7,7 @@ function Home () {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <img src={WolfCover} alt="Calling A Wolf A Wolf" className="img-fluid" />
+            <a href="https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678" title="Order Calling A Wolf A Wolf Online"><img src={WolfCover} alt="Calling A Wolf A Wolf" className="img-fluid" /></a>
           </div>
           <div className="col-md-8">
             <h6 className="section-header">{'NEWS'}</h6>

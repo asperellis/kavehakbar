@@ -11,6 +11,7 @@ class Header extends React.Component {
         };
 
         this.handleMobileNav = this.handleMobileNav.bind(this);
+        this.closeNav = this.closeNav.bind(this);
     }
 
     handleMobileNav () {

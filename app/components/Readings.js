@@ -14,11 +14,11 @@ function Readings () {
             <p>{'To set up a reading or speaking engagement, email Tabia Yapp, '}<a href="mailto:t@beotis.com">{'t@beotis.com'}</a>{'.'}</p>
             <div className="reading d-flex flex-row">
               <div className="reading-date">
-                <h6>{'MAY 24, 2017'}</h6>
+                <h6>{'JUL 22, 2017'}</h6>
               </div>
               <div className="reading-info">
-                <h6 className="normal">{'FEATURED READING'}</h6>
-                <p>{' with Peter Cole.'}<br/>{'Los Angeles, CA.'}</p>
+                <h6 className="normal">{'NOMAD READING SERIES'}</h6>
+                <p>{'NYC, New York'}</p>
               </div>
             </div>
             <div className="reading d-flex flex-row">
@@ -30,7 +30,162 @@ function Readings () {
                 <p>{'with Kazim Ali, John Andrews, Kazumi Chin, Michelle Lin.'}<br/>{'Bryant Park, NY.'}</p>
               </div>
             </div>
+                        <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'AUG 5, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'FLORIDA LAUNCH FOR CALLING A WOLF A WOLF'}</h6>
+                <p>{'Tallahassee, FL.'}</p>
+              </div>
+            </div>
+
+                        <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'AUG 12, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'DIVEDAPPER POETRY CARNIVAL'}</h6>
+                <p>{'Indianapolis, IN.'}</p>
+              </div>
+            </div>
+<div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'SEP 13, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'POETRY FOUNDATION READING'}</h6>
+                <p>{'with Charif Shanahan'}<br/>{'Chicago, IL.'}</p>
+              </div>
+            </div>
+            <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'SEP 16, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'AMHERST POETRY FESTIVAL'}</h6>
+                <p>{'Amherst, MA.'}</p>
+              </div>
+            </div>
+            <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'SEP 17, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'BROOKLYN BOOK FESTIVAL'}</h6>
+                <p>{'Brooklyn, NY.'}</p>
+              </div>
+            </div>
+                   <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'SEP 28, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'PURDUE UNIVERSITY VISITING WRITER\'S SERIES'}</h6>
+                <p>{'West Lafayette, IN.'}</p>
+              </div>
+            </div>
+                               <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'OCT 2, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'NEW YORK LAUNCH FOR CALLING A WOLF A WOLF'}</h6>
+                <p>{'Ace Hotel New York, NY.'}</p>
+              </div>
+            </div>
+                              <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'OCT 6, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'UTAH HUMANITIES ARTS FESTIVAL'}</h6>
+                <p>{'Ogden, UT.'}</p>
+              </div>
+            </div>
+                            <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'OCT 8, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'HUDSON VALLEY WRITER\'S CONFERENCE'}</h6>
+                <p>{'Sleepy Hollow, NY.'}</p>
+              </div>
+            </div>
+                            <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'OCT 11, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'HANOVER COLLEGE VISITING WRITER'}</h6>
+                <p>{'Hanover, IN.'}</p>
+              </div>
+            </div>
+                           <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'OCT 22, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'ARKANSAS INTERNATIONAL VISITING WRITER'}</h6>
+                <p>{'Fayeteville, AR.'}</p>
+              </div>
+            </div>
+               <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'NOV 2, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'IUSB VISITING WRITER'}</h6>
+                <p>{'with Steve Henn'}<br/>{'with Steve Henn, South Bend, IN.'}</p>
+              </div>
+            </div>
+                           <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'NOV 6, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'UNIVERSITY OF ILLINOIS-SPRINGFIELD VISITING WRITER'}</h6>
+                <p>{'Springfield, IL.'}</p>
+              </div>
+            </div>
+                                       <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'NOV 10, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'ACE HOTEL WRITER IN RESIDENT'}</h6>
+                <p>{'Ace Hotel, NY.'}</p>
+              </div>
+            </div>
+                                                   <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'NOV 13, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'UNIVERSITY OF TENNESSEE LIBRARY READING SERIES'}</h6>
+                <p>{'Knoxville, TN.'}</p>
+              </div>
+            </div>
+                                                <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'NOV 30, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'UNIVERSITY OF MAINE AT FARMINGTON READING SERIES'}</h6>
+                <p>{'Farmington, ME.'}</p>
+              </div>
+            </div>
+            <p>{'Ann Arbor, Portland, Detroit - Fall 2017 Dates Forthcoming!'}</p>
             <h6 className="section-header">{'PAST READINGS'}</h6>
+            <div className="reading d-flex flex-row">
+              <div className="reading-date">
+                <h6>{'MAY 24, 2017'}</h6>
+              </div>
+              <div className="reading-info">
+                <h6 className="normal">{'FEATURED READING'}</h6>
+                <p>{' with Peter Cole.'}<br/>{'Los Angeles, CA.'}</p>
+              </div>
+            </div>
             <div className="reading d-flex flex-row">
               <div className="reading-date">
                 <h6>{'MAY 12, 2017'}</h6>

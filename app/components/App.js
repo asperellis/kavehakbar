@@ -28,8 +28,8 @@ class App extends React.Component {
                               return <section><div className="container"><div className="row"><div className='col-md-12'><h1 className='center'>{'Oops'}</h1><p>{'Sorry, this page does not exist.'}</p></div></div></div></section>;
                           }} />
                       </Switch>
+                      <Footer />
                     </main>
-                    <Footer />
                 </div>
             </Router>
         )

@@ -32,7 +32,7 @@ function Readings () {
             </div>
                         <div className="reading d-flex flex-row">
               <div className="reading-date">
-                <h6>{'AUG 5, 2017'}</h6>
+                <h6>{'AUG 4, 2017'}</h6>
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'FLORIDA LAUNCH FOR CALLING A WOLF A WOLF'}</h6>

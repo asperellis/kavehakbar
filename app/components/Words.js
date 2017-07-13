@@ -21,6 +21,10 @@ function Words () {
             <p><a href="http://aprweb.org/poems/exciting-the-canvas" title="Read Two Poems">{'Two Poems'}</a>{', '}<em>{'American Poetry Review'}</em></p>
             <p><a href="http://www.pbs.org/newshour/poetry/poet-remembers-the-man-who-fought-and-died-to-save-palmyra/" title="Read Palmyra">{'Palmyra'}</a>{', '}<em>{'PBS NewsHour'}</em></p>
             <h6 className="section-header">{'REVIEWS'}</h6>
+            <p><em>{'Calling a Wolf a Wolf'}</em><br/>
+              <a href="https://pionline.wordpress.com/2017/06/23/working-with-eggshells-a-review-of-kaveh-akbars-calling-a-wolf-a-wolf/" title="Calling a Wolf a Wolf reviewed in Poetry International">{'reviewed in '}<em>{'Poetry International'}</em></a><br/>
+              <a href="http://www.vqronline.org/poetry-criticism/2017/07/toward-new-masculinity" title="Calling a Wolf a Wolf reviewed in Virginia Quarterly Review">{'reviewed in '}<em>{'Virginia Quarterly Review'}</em></a><br/>
+            </p>
             <p><em>{'Portrait of the Alcoholic'}</em>{' chapbook'}<br/>
               <a href="http://blog.bestamericanpoetry.com/the_best_american_poetry/2017/03/alchemical-the-body-becomes-a-mound-of-jewels-an-ancient-hunger-dante-di-stefano-reviews-kaveh-akbar.html" title="Portrait Of The Alcoholic reviewed in Best American Poetry">{'reviewed in '}<em>{'Best American Poetry'}</em></a><br/>
               <a href="http://blog.pshares.org/index.php/thirst-trap-desperation-in-kaveh-akbars-portrait-of-the-alcoholic/" title="Portrait Of The Alcoholic reviewed in Ploughshares">{'reviewed in '}<em>{'Ploughshares'}</em></a><br/>

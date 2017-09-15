@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+blockquote + blockquote {
+  margin-top: 40px;
+}
+
 .app {
   background-color: #fbfaf8;
   color: #212121;

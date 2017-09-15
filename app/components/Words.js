@@ -6,22 +6,26 @@ function Words () {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <blockquote>&ldquo;{'Kaveh Akbar is one of those poets that quite suddenly has always been in the world, and in my world, and your world, and yours too, and we can’t stop reading with him.'}&rdquo;<br/><span className="italic">{'- The Kenyon Review'}</span></blockquote>
+            <blockquote>&ldquo;{'Akbar has what every poet needs: the power to make, from emotions that others have felt, memorable language that nobody has assembled before.'}&rdquo;<br/><span className="italic">{'- Steph Burt in '}</span>{'The Yale Review'}</blockquote>
+            <blockquote>&ldquo;{'Absolutely floored by Kaveh Akbar’s poetry collection '}<em>{'Calling a Wolf a Wolf'}</em>{'. Stayed up past midnight reading and rereading. Truly brilliant.'}&rdquo;<br/><span className="italic">{'- John Green'}</span></blockquote>
           </div>
           <div className="col-md-8">
             <h6 className="section-header">{'SELECTED ONLINE POEMS'}</h6>
              <p><a href="http://www.newyorker.com/magazine/2017/06/05/what-use-is-knowing-anything-if-no-one-is-around" title="What Use is Knowing Anything if No One is Around">&ldquo;{'What Use is Knowing Anything if No One is Around,'}&rdquo;</a>{' '}<em>{'The New Yorker'}</em></p>
             <p><a href="http://www.nereview.com/vol-37-no-4-2016/no-is-a-complete-sentence/" title="Read No is a Complete Sentence">&ldquo;{'No is a Complete Sentence,'}&rdquo;</a>{' '}<em>{'New England Review'}</em></p>
-            <p><a href="https://www.poetryfoundation.org/poems-and-poets/poets/detail/kaveh-akbar#about" title="Read Five Poems">{'Five Poems'}</a>{', '}<em>{'Poetry'}</em></p>
+            <p><a href="https://www.poetryfoundation.org/poems-and-poets/poets/detail/kaveh-akbar#about" title="Read Seven Poems">{'Seven Poems'}</a>{', '}<em>{'Poetry'}</em></p>
             <p><a href="http://www.vqronline.org/people/kaveh-akbar" title="Read Six Poems">{'Six Poems'}</a>{', '}<em>{'Virginia Quarterly Review'}</em></p>
             <p><a href="http://www.narrativemagazine.com/issues/poems-week-2015-2016/poem-week/do-you-speak-persian-kaveh-akbar" title="Read Do You Speak Persian?">&ldquo;{'Do You Speak Persian?'}&rdquo;</a>{', '}<em>{'Narrative'}</em></p>
             <p><a href="http://thejournalmag.org/archives/11342" title="Read Orchids Are Sprouting from the Floorboards">&ldquo;{'Orchids Are Sprouting from the Floorboards'},&rdquo;</a>{' '}<em>{'The Journal'}</em></p>
             <p><a href="https://www.poetrysociety.org/psa/awards/annual/winners/2016/award_9/" title="Read Heritage">&ldquo;{'Heritage,'}&rdquo;</a>{' '}<em>{'Poetry Society of America'}</em></p>
             <p><a href="http://garev.uga.edu/summer16/akbar.html" title="Read Portrait of the Alcoholic with Shattered Pelvis">{'"Portrait of the Alcoholic with Shattered Pelvis,"'}</a>{' '}<em>{'Georgia Review'}</em></p>
-            <p><a href="http://aprweb.org/poems/exciting-the-canvas" title="Read Two Poems">{'Two Poems'}</a>{', '}<em>{'American Poetry Review'}</em></p>
+            <p><a href="http://aprweb.org/poems/exciting-the-canvas" title="Read Seven Poems">{'Seven Poems'}</a>{', '}<em>{'American Poetry Review'}</em></p>
             <p><a href="http://www.pbs.org/newshour/poetry/poet-remembers-the-man-who-fought-and-died-to-save-palmyra/" title="Read Palmyra">{'Palmyra'}</a>{', '}<em>{'PBS NewsHour'}</em></p>
             <h6 className="section-header">{'REVIEWS'}</h6>
             <p><em>{'Calling a Wolf a Wolf'}</em><br/>
+            <a href="https://pionline.wordpress.com/2017/06/23/working-with-eggshells-a-review-of-kaveh-akbars-calling-a-wolf-a-wolf/" title="Calling a Wolf a Wolf STARRED review in Publishers Weekly">{'STARRED review in '}<em>{'Publishers Weekly'}</em></a><br/>
+            <a href="https://pionline.wordpress.com/2017/06/23/working-with-eggshells-a-review-of-kaveh-akbars-calling-a-wolf-a-wolf/" title="Calling a Wolf a Wolf STARRED review in Library Journal">{'STARRED review in '}<em>{'Library Journal'}</em></a><br/>
+            <a href="https://pionline.wordpress.com/2017/06/23/working-with-eggshells-a-review-of-kaveh-akbars-calling-a-wolf-a-wolf/" title="Calling a Wolf a Wolf reviewed in the Yale Review">{'reviewed in '}<em>{'The Yale Review'}</em></a><br/>
               <a href="https://pionline.wordpress.com/2017/06/23/working-with-eggshells-a-review-of-kaveh-akbars-calling-a-wolf-a-wolf/" title="Calling a Wolf a Wolf reviewed in Poetry International">{'reviewed in '}<em>{'Poetry International'}</em></a><br/>
               <a href="http://www.vqronline.org/poetry-criticism/2017/07/toward-new-masculinity" title="Calling a Wolf a Wolf reviewed in Virginia Quarterly Review">{'reviewed in '}<em>{'Virginia Quarterly Review'}</em></a><br/>
             </p>

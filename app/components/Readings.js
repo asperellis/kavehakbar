@@ -28,16 +28,16 @@ function Readings () {
             <a href="http://www.brooklynbookfestival.org">
               <div className="reading d-flex flex-row">
                 <div className="reading-date">
-                  <h6>{'SEP 17, 2017'}</h6>
+                  <h6>{'SEP 17, 2017'}<br/>{'at 5:00PM'}</h6>
                 </div>
                 <div className="reading-info">
                   <h6 className="normal">{'BROOKLYN BOOK FESTIVAL'}</h6>
-                  <p>{'New Works: A Poetry Reading: Poets Kaveh Akbar (Calling a Wolf a Wolf), Meghan O’Rourke (Sun in Days), Tommy Pico (Nature Poem), and Nicole Sealey(Ordinary Beast) will read from their recently published volumes of poetry. Moderated by Mary Gannon.'}<br/>
+                  <p>{'New Works: A Poetry Reading: Poets Kaveh Akbar (Calling a Wolf a Wolf), Meghan O’Rourke (Sun in Days), Tommy Pico (Nature Poem), and Nicole Sealey (Ordinary Beast) will read from their recently published volumes of poetry. Moderated by Mary Gannon.'}<br/>
                   {'North Stage (Cadman Plaza East)'}<br/>{'209 Joralemon St, New York, New York 11201'}</p>
                 </div>
               </div>
             </a>
-            <a href="https://up.union.fsu.edu/">
+            <a href="https://up.union.fsu.edu/?post_type=shows&p=2541">
               <div className="reading d-flex flex-row">
                 <div className="reading-date">
                   <h6>{'SEP 24, 2017'}<br/>{'at 9:30PM'}</h6>
@@ -76,7 +76,7 @@ function Readings () {
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'NEW YORK LAUNCH FOR CALLING A WOLF A WOLF'}</h6>
-                <p>{'Ace Hotel'}<br/>{'Liberty Hall, 20 W 29th St, New York, NY 10001'}</p>
+                <p>{'With readings by Kaveh Akbar, Patricia Smith, Jean Valentine, Angel Nafis, and David Tomas Martinez'}<br/>{'Ace Hotel'}<br/>{'Liberty Hall, 20 W 29th St, New York, NY 10001'}</p>
               </div>
             </div>
             </a>
@@ -118,7 +118,7 @@ function Readings () {
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'HANOVER COLLEGE VISITING WRITER'}</h6>
-                <p>{'Hanover College'}{'484 Ball Dr, Hanover, IN 47243'}</p>
+                <p>{'Hanover College '}{'484 Ball Dr, Hanover, IN 47243'}</p>
               </div>
             </div>
 
@@ -129,17 +129,17 @@ function Readings () {
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'THE FOUNDRY / GEORGIA REVIEW FALL ISSUE EVENT'}</h6>
-                <p>{'Athens, GA.'}</p>
+                <p>{'295 E Dougherty St, Athens, GA 30601.'}</p>
               </div>
             </div></a>
-<a href="https://arts.columbia.edu/news-events">
+<a href="https://arts.columbia.edu/events/inaugural-max-ritvo-poetry-series">
 <div className="reading d-flex flex-row">
               <div className="reading-date">
                 <h6>{'OCT 18, 2017'}<br/>{'at 6:30PM (dinner)'}<br/>{'at 8:00PM (reading)'}</h6>
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'MAX RITVO POETRY SERIES'}</h6>
-                <p>{'with Kaveh, Lucie Brock-Broido, Timothy Donnelly, Mark Doty, Louise Gluck, Herb Leibowitz, Elizabeth Metzger, Sarah Ruhl, and Don Share'}{'Columbia University School of the Arts'}{'Lenfest Center for the Arts'}<br/>{'615 West 129th St. NYC'}</p>
+                <p>{'with Kaveh, Lucie Brock-Broido, Timothy Donnelly, Mark Doty, Louise Gluck, Herb Leibowitz, Elizabeth Metzger, Sarah Ruhl, and Don Share'}<br/>{'Columbia University School of the Arts, Lenfest Center for the Arts'}<br/>{'615 West 129th St. NYC'}</p>
               </div>
             </div></a>
 <a href="https://www.faylib.org/events/true-lit-arkansas-international-featured-reader-kaveh-akbar">
@@ -149,7 +149,7 @@ function Readings () {
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'ARKANSAS INTERNATIONAL VISITING WRITER'}</h6>
-                <p>{'University of Arkansas'}<br/>{'Fayetteville, AR 72701'}</p>
+                <p>{'Fayetteville Public Library'}<br/>{'401 W Mountain St, Fayetteville, AR 72701.'}</p>
               </div>
             </div>
             </a>
@@ -182,7 +182,7 @@ function Readings () {
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'IUSB VISITING WRITER'}</h6>
-                <p>{'with Steve Henn'}<br/>{'with Steve Henn, South Bend, IN.'}</p>
+                <p>{'with Steve Henn'}<br/>{'South Bend, IN.'}</p>
               </div>
             </div>
 <a href="https://monsterhousepress.com/mhpresents">
@@ -240,7 +240,7 @@ function Readings () {
             <a href="https://literary-arts.org/what-we-do/wordstock/">
                            <div className="reading d-flex flex-row">
               <div className="reading-date">
-                <h6>{'NOV 11, 2017'}</h6>
+                <h6>{'NOV 11, 2017'}<br/>{'at 5:15PM'}</h6>
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'WORDSTOCK: PORTLAND\'S BOOK FESTIVAL'}</h6>
@@ -250,11 +250,11 @@ function Readings () {
         <a href="https://www.lib.utk.edu/writers/">
                                                    <div className="reading d-flex flex-row">
               <div className="reading-date">
-                <h6>{'NOV 13, 2017'}</h6>
+                <h6>{'NOV 13, 2017'}<br/>{'at 7:00PM'}</h6>
               </div>
               <div className="reading-info">
                 <h6 className="normal">{'UNIVERSITY OF TENNESSEE LIBRARY READING SERIES'}</h6>
-                <p>{'Knoxville, TN.'}</p>
+                <p>{'University of Tennessee, Hodges Library Auditorium'}<br/>{'1015 Volunteer Blvd, Knoxville, TN 37996.'}</p>
               </div>
             </div></a>
 <a href="http://kalbookarts.org/2017/07/nov-2017-z-g-tomaszewski-and-kaveh-akbar/">

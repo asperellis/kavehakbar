@@ -214,6 +214,10 @@ p+.section-header,
   min-width: 100px;
 }
 
+.reading-info > h6 {
+  color: #e76225;
+}
+
 @media (min-width: 768px) {
   .reading-date {
     min-width: 160px;

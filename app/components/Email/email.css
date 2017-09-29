@@ -1,10 +1,10 @@
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left;}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #000; -webkit-appearance:none; color: #000;}
-#mc_embed_signup input:focus {border-color:#000;}
+#mc_embed_signup input {font-family: "brandon-grotesque", sans-serif; border:1px solid #000; -webkit-appearance:none; color: #000;}
+#mc_embed_signup input:focus {border-color:#000; outline: none;}
 #mc_embed_signup label {display:block; font-size:13px; flex: 1;margin-bottom: 10px;text-align: center;line-height: 1.2;margin-top: 20px}
-#mc_embed_signup input.email {font-size: 13px; display:block; padding:0 0.4em; min-height:32px; width: 100%; padding: 10px 17px;}
+#mc_embed_signup input.email {background-color: transparent; font-size: 13px; display:block; padding:0 0.4em; min-height:32px; width: 100%; padding: 10px 17px;}
 #mc_embed_signup .button {margin-top: 10px;margin-bottom: 0;display:block;width: 100%;}
 #mc_embed_signup_scroll { display: block; width: 100%;}
 #mc_embed_signup_scroll br {display: none;}

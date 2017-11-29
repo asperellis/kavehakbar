@@ -17,7 +17,7 @@ function Words () {
             <p><a href="http://www.vqronline.org/people/kaveh-akbar" title="Read Six Poems">{'Six Poems'}</a>{', '}<em>{'Virginia Quarterly Review'}</em></p>
             <p><a href="https://www.nytimes.com/2017/10/20/magazine/poem-being-in-this-world-makes-me-feel-like-a-time-traveler.html" title="Being in This World Makes Me Feel Like a Time Traveler">&ldquo;{'Being in This World Makes Me Feel Like a Time Traveler,'}&rdquo;</a>{' '}<em>{'The New York Times'}</em></p>
             <p><a href="http://www.narrativemagazine.com/issues/poems-week-2015-2016/poem-week/do-you-speak-persian-kaveh-akbar" title="Read Do You Speak Persian?">&ldquo;{'Do You Speak Persian?'}&rdquo;</a>{', '}<em>{'Narrative'}</em></p>
-            <p><a href="https://www.thenation.com/article/pilgrim-bell/" title="Read Pilgrim Bell">{'Pilgrim Bell'}</a>{', '}<em>{'The Nation'}</em></p>
+            <p><a href="https://www.thenation.com/article/pilgrim-bell/" title="Read Pilgrim Bell">&ldquo;{'Pilgrim Bell'}&rdquo;</a>{', '}<em>{'The Nation'}</em></p>
             <p><a href="http://thejournalmag.org/archives/11342" title="Read Orchids Are Sprouting from the Floorboards">&ldquo;{'Orchids Are Sprouting from the Floorboards'},&rdquo;</a>{' '}<em>{'The Journal'}</em></p>
             <p><a href="https://www.poetrysociety.org/psa/awards/annual/winners/2016/award_9/" title="Read Heritage">&ldquo;{'Heritage,'}&rdquo;</a>{' '}<em>{'Poetry Society of America'}</em></p>
             <p><a href="http://garev.uga.edu/summer16/akbar.html" title="Read Portrait of the Alcoholic with Shattered Pelvis">{'"Portrait of the Alcoholic with Shattered Pelvis,"'}</a>{' '}<em>{'Georgia Review'}</em></p>

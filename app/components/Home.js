@@ -58,14 +58,14 @@ function Home() {
                   }&rdquo;<br />-{' '}
                   <strong>
                     <em>{'Publishers Weekly'}</em>
-                    {'(Starred Review)'}
+                    {' (Starred Review)'}
                   </strong>
                 </p>
                 <p>
                   &ldquo;{'Akbar proves what books can do.'}&rdquo;<br />-
                   <strong>
                     <em>{'Library Journal'}</em>
-                    {'(Starred Review)'}
+                    {' (Starred Review)'}
                   </strong>
                 </p>
                 <p>

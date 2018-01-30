@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from './../images/readings.jpg';
+import aboutImg from './../images/kaveh.jpg';
 import { about } from './../content/content';
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
               {'Kaveh Akbar’s poems appear recently or soon in '}
               <em>
                 {
-                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, The Guardian, Ploughshares, FIELD, Georgia Review, PBS NewsHour, Harvard Review, American Poetry Review, Narrative, The Poetry Review, AGNI, New England Review, A Public Space, Prairie Schooner, Virginia Quarterly Review, Poetry International, Best New Poets 2016, Guernica, Boston Review,'
+                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry 2018, The New Republic, The Guardian, Ploughshares, Georgia Review, PBS NewsHour, Harvard Review, American Poetry Review, Narrative, The Poetry Review, AGNI, New England Review, A Public Space, Prairie Schooner, Virginia Quarterly Review, Poetry International, Best New Poets 2016, Boston Review,'
                 }
               </em>{' '}
               {'and elsewhere. His debut full-length collection, '}
@@ -98,8 +98,17 @@ function About() {
               <a href="mailto:t@beotis.com" title="Booking Contact for Kaveh">
                 {'t@beotis.com'}
               </a>
+              <br />
+              <span className="bold">{'LITERARY AGENT'}</span>
+              {': '}
+              <a
+                href="http://www.wylieagency.com/"
+                title="Literary Agent for Kaveh"
+              >
+                {'The Wylie Agency'}
+              </a>
             </p>
-            <p>{'Author Photo By B. A. Van Sise'}</p>
+            <p>{'Author Photo By Hieu Minh Nguyen'}</p>
           </div>
         </div>
       </div>

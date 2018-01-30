@@ -160,6 +160,10 @@ blockquote {
   margin-top: 60px;
 }
 
+.featured-logos-img {
+  margin-bottom: -60px;
+}
+
 .section-title,
 .book-title {
   margin-bottom: 17px;

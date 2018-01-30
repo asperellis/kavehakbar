@@ -573,6 +573,4 @@ const words = {
   ]
 };
 
-const home = {};
-
-export { readings, books, about, home, words };
+export { readings, books, words };

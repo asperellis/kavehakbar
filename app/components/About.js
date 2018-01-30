@@ -36,7 +36,7 @@ function About() {
                 <em>{'Portrait of the Alcoholic'}</em>
               </a>
               {
-                ', was published by Sibling Rivalry Press. The recipient of a 2016 Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, and the Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low-residency program at Randolph College'
+                ', was published by Sibling Rivalry Press. The recipient of a 2016 Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, and the Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low-residency program at Randolph College.'
               }
             </p>
             <p>

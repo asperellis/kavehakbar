@@ -12,10 +12,7 @@
     "production": "webpack -p"
   },
   "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
+    "presets": ["env", "react"]
   },
   "dependencies": {
     "react": "^15.5.4",

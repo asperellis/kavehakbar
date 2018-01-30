@@ -10,7 +10,7 @@ blockquote + blockquote {
 .app {
   background-color: #fbfaf8;
   color: #212121;
-  font-family: "jubilat", serif;
+  font-family: 'jubilat', serif;
   font-style: normal;
   font-weight: 400;
   min-height: 100vh;
@@ -42,7 +42,7 @@ h6,
 .button,
 .mobile-nav-toggle,
 footer {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;
   font-style: normal;
   font-weight: 600;
 }
@@ -156,6 +156,10 @@ blockquote {
   }
 }
 
+.featured-logos.section-header {
+  margin-top: 60px;
+}
+
 .section-title,
 .book-title {
   margin-bottom: 17px;
@@ -168,26 +172,26 @@ blockquote {
   font-size: 24px;
 }
 
-p+.section-title,
-p+.section-header,
-.reading+.section-header {
+p + .section-title,
+p + .section-header,
+.reading + .section-header {
   margin-top: 15px;
 }
 
 @media (min-width: 768px) {
-  p+.section-title,
-  p+.section-header,
-  .reading+.section-header {
+  p + .section-title,
+  p + .section-header,
+  .reading + .section-header {
     margin-top: 30px;
   }
 }
 
-.words p+.section-header {
+.words p + .section-header {
   margin-top: 45px;
 }
 
 @media (min-width: 768px) {
-  .words p+.section-header {
+  .words p + .section-header {
     margin-top: 30px;
   }
 }

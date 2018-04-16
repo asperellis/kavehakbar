@@ -78,20 +78,13 @@ function About() {
               {', a monthly poetry podcast.'}
             </p>
             <p>
-              <span className="bold">{'CONTACT'}</span>:{' '}
+              <span className="bold">{'GENERAL INQUIRIES / BOOKING'}</span>:{' '}
               <a
-                href="mailto:kaveh@kavehakbar.com"
-                title="Send an email to Kaveh"
+                href="mailto:hello@betois.com"
+                title="General Inquiries or booking requests for Kaveh"
               >
-                {'kaveh@kavehakbar.com'}
+                {'hello@betois.com'}
               </a>
-              {' or on Twitter '}
-              <a
-                href="https://twitter.com/KavehAkbar"
-                title="Follow Kaveh on Twitter"
-              >
-                {'@KavehAkbar'}
-              </a>.
               <br />
               <span className="bold">{'SPEAKING AGENT'}</span>
               {': Tabia Yapp, '}

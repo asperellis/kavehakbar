@@ -226,6 +226,11 @@ p + .section-header,
   color: #e76225;
 }
 
+.reading-info p:not(:last-of-type) {
+  margin-bottom: 0;
+  line-height: 1.25;
+}
+
 @media (min-width: 768px) {
   .reading-date {
     min-width: 160px;

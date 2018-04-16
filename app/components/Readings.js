@@ -28,7 +28,7 @@ function Readings() {
                     <div className="reading-date">
                       <h6>
                         {r.date}
-                        {r.time && <br /> + 'at ' + r.time}
+                        {r.time && (<span><br />at {r.time}</span>)}
                       </h6>
                     </div>
                     <div className="reading-info">

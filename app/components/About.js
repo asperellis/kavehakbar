@@ -78,12 +78,12 @@ function About() {
               {', a monthly poetry podcast.'}
             </p>
             <p>
-              <span className="bold">{'GENERAL INQUIRIES / BOOKING'}</span>:{' '}
+              <span className="bold">{'GENERAL INQUIRIES'}</span>:{' '}
               <a
-                href="mailto:hello@betois.com"
+                href="mailto:hello@beotis.com"
                 title="General Inquiries or booking requests for Kaveh"
               >
-                {'hello@betois.com'}
+                {'hello@beotis.com'}
               </a>
               <br />
               <span className="bold">{'SPEAKING AGENT'}</span>

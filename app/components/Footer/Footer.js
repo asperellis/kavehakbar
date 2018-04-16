@@ -19,13 +19,6 @@ function Footer() {
                   >
                     {'TWITTER'}
                   </a>
-                  <a
-                    className="footer-social"
-                    href="mailto:kaveh@kavehakbar.com"
-                    title="Send Kaveh An Email"
-                  >
-                    {'EMAIL'}
-                  </a>
                 </div>
               </div>
               <div>

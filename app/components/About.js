@@ -13,7 +13,7 @@ function About() {
           <div className="col-md-8">
             <h6 className="section-header">{'ABOUT KAVEH'}</h6>
             <p>
-              {'Kaveh Akbar’s poems appear recently or soon in '}
+              {'Kaveh Akbar’s poems appear recently in '}
               <em>
                 {
                   'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry 2018, The New Republic, The Guardian, Ploughshares, Georgia Review, PBS NewsHour, Harvard Review, American Poetry Review, Narrative, The Poetry Review, AGNI, New England Review, A Public Space, Prairie Schooner, Virginia Quarterly Review, Poetry International, Best New Poets 2016, Boston Review,'

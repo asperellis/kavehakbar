@@ -1,5 +1,5 @@
 import React from 'react';
-import wolfCover from './../images/calling-a-wolf-a-wolf.jpg';
+import wolfCover from './../images/calling-a-wolf-a-wolf-uk.jpg';
 import featuredLogos from './../images/featured-logos.gif';
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
               <img
                 src={wolfCover}
                 alt="Calling A Wolf A Wolf"
-                className="img-fluid"
+                className="img-fluid homepage-cover"
               />
             </a>
           </div>

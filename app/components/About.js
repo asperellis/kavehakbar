@@ -16,7 +16,7 @@ function About() {
               {'Kaveh Akbar’s poems appear recently in '}
               <em>
                 {
-                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry 2018, The New Republic, The Guardian, Ploughshares, Georgia Review, PBS NewsHour, Harvard Review, American Poetry Review, Narrative, The Poetry Review, AGNI, New England Review, A Public Space, Prairie Schooner, Virginia Quarterly Review, Poetry International, Best New Poets 2016, Boston Review,'
+                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry, The New Republic, The Guardian, Ploughshares, PBS NewsHour, Harvard Review, American Poetry Review, The Poetry Review, Prairie Schooner, Best New Poets,'
                 }
               </em>{' '}
               {'and elsewhere. His debut full-length collection, '}
@@ -36,7 +36,7 @@ function About() {
                 <em>{'Portrait of the Alcoholic'}</em>
               </a>
               {
-                ', was published by Sibling Rivalry Press. The recipient of a 2016 Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, and the Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low-residency program at Randolph College.'
+                ', was published by Sibling Rivalry Press. The recipient of a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, and the Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
               }
             </p>
             <p>

@@ -45,8 +45,14 @@ function About() {
                 <em>{'Divedapper'}</em>
               </a>
               {
-                ', a home for dialogues with the most vital voices in contemporary poetry. Previously, he ran '
+                ', a home for dialogues with the most vital voices in American poetry. With Sarah Kay and Claire Schwartz, he writes a weekly column for the '
               }
+              <em>{'Paris Review'}</em>
+              {' called '}
+              <a href="https://www.theparisreview.org/blog/category/columns/poetry-rx/">
+                {'"Poetry RX."'}
+              </a>
+              {' Previously, he ran '}
               <em>
                 <a href="http://www.thequirk.org/" title="The Quirk">
                   {'The Quirk'}

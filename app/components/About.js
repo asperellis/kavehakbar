@@ -16,7 +16,7 @@ function About() {
               {'Kaveh Akbar’s poems appear recently in '}
               <em>
                 {
-                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry, The New Republic, The Guardian, Ploughshares, PBS NewsHour, Harvard Review, American Poetry Review, The Poetry Review, Prairie Schooner, Best New Poets,'
+                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry, The New Republic, The Guardian, Ploughshares, PBS NewsHour,  American Poetry Review, The Poetry Review,'
                 }
               </em>{' '}
               {'and elsewhere. His debut full-length collection, '}
@@ -25,7 +25,8 @@ function About() {
                 title="Calling A Wolf A Wolf"
               >
                 <em>{'Calling a Wolf a Wolf'}</em>
-              </a>,{' '}
+              </a>
+              ,{' '}
               {
                 'is just out with Alice James in the US and Penguin in the UK, and his chapbook, '
               }
@@ -36,11 +37,11 @@ function About() {
                 <em>{'Portrait of the Alcoholic'}</em>
               </a>
               {
-                ', was published by Sibling Rivalry Press. The recipient of a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, and the Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
+                ', was published by Sibling Rivalry Press. The recipient of honors including a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, the Levis Reading Prize, and a Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
               }
             </p>
             <p>
-              {'Kaveh founded and edits '}
+              {'Kaveh founded '}
               <a href="http://www.divedapper.com/" title="Divedapper">
                 <em>{'Divedapper'}</em>
               </a>
@@ -84,18 +85,13 @@ function About() {
               {', a monthly poetry podcast.'}
             </p>
             <p>
-              <span className="bold">{'GENERAL INQUIRIES'}</span>:{' '}
+              <span className="bold">{'SPEAKING AGENT/GENERAL INQUIRIES'}</span>
+              :{' '}
               <a
-                href="mailto:hello@beotis.com"
+                href="https://www.beotis.com/contact/"
                 title="General Inquiries or booking requests for Kaveh"
               >
-                {'hello@beotis.com'}
-              </a>
-              <br />
-              <span className="bold">{'SPEAKING AGENT'}</span>
-              {': Tabia Yapp, '}
-              <a href="mailto:t@beotis.com" title="Booking Contact for Kaveh">
-                {'t@beotis.com'}
+                {'Beotis Creative'}
               </a>
               <br />
               <span className="bold">{'LITERARY AGENT'}</span>

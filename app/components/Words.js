@@ -8,18 +8,14 @@ function Words() {
         <div className="row">
           <div className="col-md-4">
             <blockquote>
-              &ldquo;{
-                'Akbar has what every poet needs: the power to make, from emotions that others have felt, memorable language that nobody has assembled before.'
-              }&rdquo;<br />
-              <span className="italic">{'- Steph Burt in '}</span>
-              {'The Yale Review'}
-            </blockquote>
-            <blockquote>
-              &ldquo;{'Absolutely floored by Kaveh Akbar’s poetry collection '}
+              &ldquo;
+              {'Absolutely floored by Kaveh Akbar’s poetry collection '}
               <em>{'Calling a Wolf a Wolf'}</em>
               {
                 '. Stayed up past midnight reading and rereading. Truly brilliant.'
-              }&rdquo;<br />
+              }
+              &rdquo;
+              <br />
               <span className="italic">{'- John Green'}</span>
             </blockquote>
           </div>
@@ -70,18 +66,6 @@ function Words() {
                   >
                     {'with '}
                     <em>{c.with}</em>
-                    <br />
-                  </a>
-                );
-              })}
-            </p>
-            <h6 className="section-header">{'PRESS'}</h6>
-            <p>
-              {words.press.map((p, i) => {
-                return (
-                  <a href={p.url} key={'press' + i} title={p.title}>
-                    {p.title}
-                    {p.publication && <em>{' - ' + p.publication}</em>}
                     <br />
                   </a>
                 );

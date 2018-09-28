@@ -207,7 +207,8 @@ const readings = [
     address: 'Port of Spain, Trinidad & Tobago'
   },
   {
-    url: 'https://www.poetshouse.org/programs-and-events/other-events/literary-partners-program-power-dynamics-poetry-conversation-kaveh',
+    url:
+      'https://www.poetshouse.org/programs-and-events/other-events/literary-partners-program-power-dynamics-poetry-conversation-kaveh',
     date: 'MAY 2, 2018',
     time: '6-8PM',
     name: 'Power Dynamics in Poetry',
@@ -392,6 +393,30 @@ const words = {
       title: 'Calling A Wolf A Wolf',
       reviews: [
         {
+          url:
+            'https://apps.npr.org/best-books-2017/#/book/calling-a-wolf-a-wolf',
+          title: 'reviewed by NPR (2017 Best Books)',
+          publication: ''
+        },
+        {
+          url:
+            'https://www.theatlantic.com/entertainment/archive/2017/12/the-best-books-we-missed-in-2017/549218/',
+          title: 'reviewed in ',
+          publication: 'The Atlantic'
+        },
+        {
+          url:
+            'https://www.kenyonreview.org/reviews/calling-a-wolf-a-wolf-by-kaveh-akbar-738439/',
+          title: 'reviewed in ',
+          publication: 'The Kenyon Review'
+        },
+        {
+          url:
+            'http://bostonreview.net/poetry/claire-schwartz-delightful-homelands',
+          title: 'reviewed in ',
+          publication: 'The Boston Review'
+        },
+        {
           url: 'https://www.publishersweekly.com/978-1-938584-67-1',
           title: 'STARRED review in ',
           publication: 'Publishers Weekly'
@@ -436,18 +461,6 @@ const words = {
             'http://blog.pshares.org/index.php/thirst-trap-desperation-in-kaveh-akbars-portrait-of-the-alcoholic/',
           title: 'reviewed in ',
           publication: 'Ploughshares'
-        },
-        {
-          url:
-            'https://www.theblueshiftjournal.com/single-post/2017/01/28/Haunted-Reflection-Review-of-Kaveh-Akbar%E2%80%99s-Portrait-of-the-Alcoholic',
-          title: 'reviewed in ',
-          publication: 'Blueshift Journal'
-        },
-        {
-          url:
-            'http://www.greenlindenpress.com/interviews-and-reviews/#/kaveh-akbar/',
-          title: 'reviewed in ',
-          publication: 'Green Linden Press'
         }
       ]
     }
@@ -455,47 +468,28 @@ const words = {
   conversations: [
     {
       url:
+        'https://www.npr.org/2018/01/14/577712874/kaveh-akbar-is-poetrys-biggest-cheerleader',
+      with: 'NPR'
+    },
+    {
+      url:
+        'https://www.bostonglobe.com/arts/books/2018/04/26/poet-who-reads-poetry-constantly/BXLbS55GpG5g75GNURVMWP/story.html',
+      with: 'The Boston Globe'
+    },
+    {
+      url:
+        'https://lithub.com/kaveh-akbar-bewilderment-is-at-the-core-of-every-great-poem/',
+      with: 'Lit Hub'
+    },
+    {
+      url:
         'https://thegeorgiareview.com/online/back-and-forth-with-kaveh-akbar/',
       with: 'The Georgia Review'
     },
     {
       url:
-        'https://slicemagazine.org/literal-magic-an-interview-with-poet-kaveh-akbar/',
-      with: 'Slice'
-    },
-    {
-      url:
-        'https://www.thefix.com/kaveh-akbar-maps-unprecedented-experience-portrait-alcoholic',
-      with: 'The Fix'
-    },
-    {
-      url:
-        'https://medium.com/drunken-boat/witness-the-hour-conversations-with-arab-american-poets-across-the-diaspora-27591ba7a082',
-      with: 'Drunken Boat'
-    },
-    {
-      url:
-        'http://prairieschooner.unl.edu/blog/kaveh-akbar-illicit-luck-daily-poetry-practice',
-      with: 'Prairie Schooner'
-    },
-    {
-      url:
         'http://www.pbs.org/newshour/poetry/poet-remembers-the-man-who-fought-and-died-to-save-palmyra/',
       with: 'PBS NewsHour'
-    },
-    {
-      url: 'http://queenmobs.com/2016/08/editor-akbar/',
-      with: "Queen Mob's Teahouse"
-    },
-    {
-      url:
-        'http://www.fsunews.com/story/news/2016/01/06/phd-student-isis-victim-poem/78321796/',
-      with: 'FSView'
-    },
-    {
-      url:
-        'http://www.thereviewreview.net/interviews/giving-poets-room-speak-meaningfully-chat-kaveh-a',
-      with: 'The Review Review'
     }
   ],
   press: [

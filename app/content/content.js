@@ -339,6 +339,17 @@ const words = {
       publication: 'Poetry'
     },
     {
+      title: 'Mothers I Once Was',
+      url:
+        'https://www.theparisreview.org/poetry/7380/mothers-i-once-was-kaveh-akbar',
+      publication: 'The Paris Review'
+    },
+    {
+      title: 'Six Poems',
+      url: 'https://www.poets.org/poetsorg/poems/445566',
+      publication: 'Poets.org'
+    },
+    {
       title: 'Six Poems',
       url: 'http://www.vqronline.org/people/kaveh-akbar',
       publication: 'Virginia Quarterly Review'
@@ -352,8 +363,8 @@ const words = {
     {
       title: 'Do You Speak Persian?',
       url:
-        'http://www.narrativemagazine.com/issues/poems-week-2015-2016/poem-week/do-you-speak-persian-kaveh-akbar',
-      publication: 'Narrative'
+        'https://www.splitthisrock.org/poetry-database/poem/do-you-speak-persian',
+      publication: 'Split This Rock'
     },
     {
       title: 'Pilgrim Bell',

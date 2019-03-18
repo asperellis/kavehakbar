@@ -28,56 +28,77 @@ function Home() {
             <div className="row">
               <div className="col-lg-6">
                 <p>
-                  &ldquo;{
+                  &ldquo;
+                  {
                     'An outstanding book of poetry... unknowable and always beautiful.'
-                  }&rdquo;<br />- <strong>{'Roxane Gay'}</strong>
+                  }
+                  &rdquo;
+                  <br />- <strong>{'Roxane Gay'}</strong>
                 </p>
                 <p>
-                  &ldquo;{
-                    'This is bounty, an intensely inventive and original debut.'
-                  }&rdquo;<br />- <strong>{'Frank Bidart'}</strong>
+                  &ldquo;
+                  {'This is bounty, an intensely inventive and original debut.'}
+                  &rdquo;
+                  <br />- <strong>{'Frank Bidart'}</strong>
                 </p>
                 <p>
-                  &ldquo;{'Truly brilliant.'}&rdquo;<br />-{' '}
-                  <strong>{'John Green'}</strong>
+                  &ldquo;{'Truly brilliant.'}&rdquo;
+                  <br />- <strong>{'John Green'}</strong>
                 </p>
                 <p>
-                  &ldquo;{
+                  &ldquo;
+                  {
                     'Akbar has what every poet needs: the power to make, from emotions others have felt, memorable language nobody has assembled before.'
-                  }&rdquo;<br />- <strong>{'Steph Burt'}</strong>
+                  }
+                  &rdquo;
+                  <br />-{' '}
+                  <strong>
+                    {'Stephanie Burt'}, <em>{'Yale Review'}</em>
+                  </strong>
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  &ldquo;{'One of the best debuts in recent memory.'}&rdquo;<br />
+                  &ldquo;
+                  {
+                    'A bright flash of lightning illuminating the landscape of craving.'
+                  }
+                  &rdquo;
+                  <br />
+                  <strong>
+                    {'Leslie Jamison'}, <em>{'The Guardian'}</em>
+                  </strong>
+                </p>
+                <p>
+                  &ldquo;{'One of the best debuts in recent memory.'}&rdquo;
+                  <br />
                   <strong>{'Eduardo C. Corral'}</strong>
                 </p>
                 <p>
-                  &ldquo;{
+                  &ldquo;
+                  {
                     'A breathtaking addition to the canon of addiction literature.'
-                  }&rdquo;<br />-{' '}
+                  }
+                  &rdquo;
+                  <br />-{' '}
                   <strong>
                     <em>{'Publishers Weekly'}</em>
                     {' (Starred Review)'}
                   </strong>
                 </p>
                 <p>
-                  &ldquo;{'Akbar proves what books can do.'}&rdquo;<br />-
+                  &ldquo;{'Akbar proves what books can do.'}&rdquo;
+                  <br />-
                   <strong>
                     <em>{'Library Journal'}</em>
                     {' (Starred Review)'}
                   </strong>
                 </p>
                 <p>
-                  &ldquo;{'Immensely thoughtful... terrifyingly cogent.'}&rdquo;<br />-
+                  &ldquo;{'Immensely thoughtful... terrifyingly cogent.'}&rdquo;
+                  <br />-
                   <strong>
                     <em>{'The Atlantic'}</em>
-                  </strong>
-                </p>
-                <p>
-                  &ldquo;{'Akbar is a sumptuous, remarkably painterly poet.'}&rdquo;<br />-{' '}
-                  <strong>
-                    <em>{'The Kenyon Review'}</em>
                   </strong>
                 </p>
               </div>

@@ -13,10 +13,10 @@ function About() {
           <div className="col-md-8">
             <h6 className="section-header">{'ABOUT KAVEH'}</h6>
             <p>
-              {'Kaveh Akbar’s poems appear recently in '}
+              {'Kaveh Akbar’s poems appear in '}
               <em>
                 {
-                  'The New Yorker, Poetry, The New York Times, The Nation, Tin House, Best American Poetry, The New Republic, The Guardian, Ploughshares, PBS NewsHour,  American Poetry Review, The Poetry Review,'
+                  'The New Yorker, Poetry, The New York Times, Paris Review, The Nation, Best American Poetry, The New Republic, The Guardian, American Poetry Review, The Poetry Review, PBS NewsHour, '
                 }
               </em>{' '}
               {'and elsewhere. His debut full-length collection, '}
@@ -28,7 +28,7 @@ function About() {
               </a>
               ,{' '}
               {
-                'is just out with Alice James in the US and Penguin in the UK, and his chapbook, '
+                'is out with Alice James in the US and Penguin in the UK, and his chapbook, '
               }
               <a
                 href="http://siblingrivalrypress.bigcartel.com/product/portrait-of-the-alcoholic-by-kaveh-akbar"
@@ -37,7 +37,7 @@ function About() {
                 <em>{'Portrait of the Alcoholic'}</em>
               </a>
               {
-                ', was published by Sibling Rivalry Press. The recipient of honors including a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, the Levis Reading Prize, and a Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and currently teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
+                ', was published by Sibling Rivalry Press. The recipient of honors including a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, the Levis Reading Prize, and a Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
               }
             </p>
             <p>
@@ -85,8 +85,7 @@ function About() {
               {', a monthly poetry podcast.'}
             </p>
             <p>
-              <span className="bold">{'SPEAKING AGENT/GENERAL INQUIRIES'}</span>
-              :{' '}
+              <span className="bold">{'SPEAKING/GENERAL INQUIRIES'}</span>:{' '}
               <a
                 href="https://www.beotis.com/contact/"
                 title="General Inquiries or booking requests for Kaveh"
@@ -94,7 +93,7 @@ function About() {
                 {'Beotis Creative'}
               </a>
               <br />
-              <span className="bold">{'LITERARY AGENT'}</span>
+              <span className="bold">{'LITERARY'}</span>
               {': '}
               <a
                 href="http://www.wylieagency.com/"

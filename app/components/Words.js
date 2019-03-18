@@ -9,14 +9,10 @@ function Words() {
           <div className="col-md-4">
             <blockquote>
               &ldquo;
-              {'Absolutely floored by Kaveh Akbar’s poetry collection '}
-              <em>{'Calling a Wolf a Wolf'}</em>
-              {
-                '. Stayed up past midnight reading and rereading. Truly brilliant.'
-              }
+              {'Akbar is a sumptuous, remarkably painterly poet.'}
               &rdquo;
               <br />
-              <span className="italic">{'- John Green'}</span>
+              <span className="italic">{'- The Kenyon Review'}</span>
             </blockquote>
           </div>
           <div className="col-md-8">

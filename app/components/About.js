@@ -19,7 +19,9 @@ function About() {
                   'The New Yorker, Poetry, The New York Times, Paris Review, The Nation, Best American Poetry, The New Republic, The Guardian, American Poetry Review, The Poetry Review, PBS NewsHour, '
                 }
               </em>{' '}
-              {'and elsewhere. His debut full-length collection, '}
+              {
+                'and elsewhere. His second full-length volume of poetry, Pilgrim Bell, will be published by Graywolf in 2021. His debut, '
+              }
               <a
                 href="http://alicejamesbooks.org/ajb-titles/calling-a-wolf-a-wolf/"
                 title="Calling A Wolf A Wolf"
@@ -28,7 +30,7 @@ function About() {
               </a>
               ,{' '}
               {
-                'is out with Alice James in the US and Penguin in the UK, and his chapbook, '
+                'is out now with Alice James in the US and Penguin in the UK. He is also the author of the chapbook, '
               }
               <a
                 href="http://siblingrivalrypress.bigcartel.com/product/portrait-of-the-alcoholic-by-kaveh-akbar"
@@ -37,7 +39,7 @@ function About() {
                 <em>{'Portrait of the Alcoholic'}</em>
               </a>
               {
-                ', was published by Sibling Rivalry Press. The recipient of honors including a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, a Pushcart Prize, the Levis Reading Prize, and a Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
+                ', published in 2016 by Sibling Rivalry Press. The recipient of honors including a Ruth Lilly and Dorothy Sargent Rosenberg Fellowship from the Poetry Foundation, multiple Pushcart Prizes, the Levis Reading Prize, and a Lucille Medwick Memorial Award from the Poetry Society of America, Kaveh was born in Tehran, Iran, and teaches at Purdue University and in the low residency MFA programs at Randolph College and Warren Wilson.'
               }
             </p>
             <p>
@@ -82,7 +84,15 @@ function About() {
               >
                 {'All Up in Your Ears'}
               </a>
-              {', a monthly poetry podcast.'}
+              {
+                ', a monthly poetry podcast. Kaveh is currently editing an anthology of poetry of the spirit for '
+              }
+              <a
+                href="http://www.penguinclassics.com/"
+                title="Penguin Classics"
+              >
+                {'Penguin Classics.'}
+              </a>
             </p>
             <p>
               <span className="bold">{'SPEAKING/GENERAL INQUIRIES'}</span>:{' '}

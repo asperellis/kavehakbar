@@ -21,9 +21,9 @@ function Words() {
               return (
                 <p key={'online' + i}>
                   <a href={w.url} title={'Read ' + w.title}>
-                    {w.title + ', '}
-                    <em>{w.publication}</em>
+                    {w.title}
                   </a>
+                  <em>{', ' + w.publication}</em>
                 </p>
               );
             })}

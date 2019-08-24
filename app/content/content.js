@@ -321,9 +321,8 @@ const books = [
 const words = {
   online: [
     {
-      title: 'What Use is Knowing Anything if No One is Around',
-      url:
-        'http://www.newyorker.com/magazine/2017/06/05/what-use-is-knowing-anything-if-no-one-is-around',
+      title: 'The Palace',
+      url: 'https://www.newyorker.com/magazine/poems/kaveh-akbar-the-palace',
       publication: 'The New Yorker'
     },
     {
@@ -337,6 +336,12 @@ const words = {
       url:
         'https://www.poetryfoundation.org/poems-and-poets/poets/detail/kaveh-akbar#about',
       publication: 'Poetry'
+    },
+    {
+      title: 'What Use is Knowing Anything if No One is Around',
+      url:
+        'http://www.newyorker.com/magazine/2017/06/05/what-use-is-knowing-anything-if-no-one-is-around',
+      publication: 'The New Yorker'
     },
     {
       title: 'Mothers I Once Was',

@@ -137,6 +137,16 @@ blockquote {
 .main {
   -ms-flex: 1;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main > section:first-child {
+  flex: 1;
+}
+
+.main article.book + article.book {
+  margin-top: 60px;
 }
 
 .homepage-cover {
@@ -216,7 +226,7 @@ p + .section-header,
   }
 }
 
-.book-quote {
+.book-quotes {
   -ms-flex: 1;
   flex: 1;
   margin-top: 0;

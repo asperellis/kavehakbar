@@ -1,59 +1,52 @@
 import React from 'react';
-import { books } from './../content/content';
+import {books} from './../content/content';
+import callingAWolfAWolfCover from './../images/calling-a-wolf-a-wolf.jpg';
+import portaitOfTheAlcoholicCover from './../images/portait-of-the-alcoholic.jpg';
+import pilgrimBellCover from './../images/pilgrim-bell.png';
 
-const images = [];
-books.forEach(b => {
-  images.push(require('./../images/' + b.img));
-});
+const COVERS = {
+  "calling-a-wolf-a-wolf": callingAWolfAWolfCover,
+  "portait-of-the-alcoholic": portaitOfTheAlcoholicCover,
+  "pilgrim-bell": pilgrimBellCover
+};
 
 function Books() {
   return (
     <section>
       <div className="container">
         <div className="row">
-          {books.map((b, i) => {
-            return (
-              <div
-                className={[
-                  'col-lg-4',
-                  'col-md-6',
-                  i === 0 && 'offset-lg-2'
-                ].join(' ')}
-                key={i}
-              >
+          {books.map(book => (
+              <div className={'col-lg-4 col-md-4'} key={book.title}>
                 <div className="book d-flex flex-column">
-                  <a href={b.url} title={'Order ' + b.title}>
+                  <a href={book.url} title={`Order ${book.title}`}>
                     <img
-                      src={images[i]}
-                      alt={b.title}
+                      src={COVERS[book.img]}
+                      alt={book.title}
                       className="img-fluid book-cover"
                     />
                   </a>
-                  <h6 className="book-header">{'BOOK'}</h6>
+                  <h6 className="book-header">BOOK</h6>
                   <h4 className="book-title">
-                    <em>{b.title.toUpperCase()}</em>
+                    <em>{book.title.toUpperCase()}</em>
                   </h4>
-                  {b.quotes.map((q, index) => {
-                    return (
-                      <p
-                        className="book-quote"
-                        key={b.title.replace(/\s/g, '') + 'q' + index}
-                      >
-                        {q.quote}
-                        <br />
-                        {q.speaker && '- ' + q.speaker}
-                        {q.publication && ' in '}
-                        {q.publication && <em>{q.publication}</em>}
-                      </p>
-                    );
-                  })}
-                  <a href={b.url} className="button" title={'Order ' + b.title}>
-                    {'ORDER ONLINE'}
-                  </a>
+                  <div className="book-quotes">
+                    {book.quotes.map((q, index) => (
+                        <p
+                          className="book-quote"
+                          key={`${book.title.replace(/\s/g, '')}q${index}`}
+                        >
+                          {q.quote}
+                          <br />
+                          {q.speaker && `- ${q.speaker}`}
+                          {q.publication && ' in '}
+                          {q.publication && <em>{q.publication}</em>}
+                        </p>
+                      ))}
+                  </div>
+                  <a href={book.url} className="button" title={`Order ${book.title}`}>ORDER ONLINE</a>
                 </div>
               </div>
-            );
-          })}
+            ))}
         </div>
       </div>
     </section>

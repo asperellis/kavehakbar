@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './nav.css';
 
 function Nav(props) {
@@ -15,7 +15,7 @@ function Nav(props) {
             to="/about"
             onClick={props.linkClick}
           >
-            <h6 className="nav-link">{'ABOUT'}</h6>
+            <h6 className="nav-link">ABOUT</h6>
           </NavLink>
         </div>
         <div className="col-md-3">
@@ -27,7 +27,7 @@ function Nav(props) {
             to="/books"
             onClick={props.linkClick}
           >
-            <h6 className="nav-link">{'BOOKS'}</h6>
+            <h6 className="nav-link">BOOKS</h6>
           </NavLink>
         </div>
         <div className="col-md-3">
@@ -39,7 +39,7 @@ function Nav(props) {
             to="/readings"
             onClick={props.linkClick}
           >
-            <h6 className="nav-link">{'READINGS'}</h6>
+            <h6 className="nav-link">READINGS</h6>
           </NavLink>
         </div>
         <div className="col-md-3">
@@ -51,7 +51,7 @@ function Nav(props) {
             to="/words"
             onClick={props.linkClick}
           >
-            <h6 className="nav-link">{'WORDS'}</h6>
+            <h6 className="nav-link">WORDS</h6>
           </NavLink>
         </div>
       </div>

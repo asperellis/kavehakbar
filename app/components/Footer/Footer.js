@@ -10,16 +10,7 @@ function Footer() {
           <footer className="footer">
             <div className="d-flex justify-content-between align-items-center">
               <div className="legal">
-                <div>{'© 2017 KAVEH AKBAR - ALL RIGHTS RESERVED'}</div>
-                <div className="footer-links">
-                  <a
-                    className="footer-social"
-                    href="https://twitter.com/kavehakbar"
-                    title="Follow Kaveh On Twitter"
-                  >
-                    {'TWITTER'}
-                  </a>
-                </div>
+                <div>© 2021 KAVEH AKBAR - ALL RIGHTS RESERVED</div>
               </div>
               <div>
                 <Email />

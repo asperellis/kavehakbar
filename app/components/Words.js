@@ -1,5 +1,5 @@
 import React from 'react';
-import { words } from './../content/content';
+import {words} from './../content/content';
 
 function Words() {
   return (
@@ -8,64 +8,53 @@ function Words() {
         <div className="row">
           <div className="col-md-4">
             <blockquote>
-              &ldquo;
-              {'Akbar is a sumptuous, remarkably painterly poet.'}
-              &rdquo;
+              &ldquo;Akbar is a sumptuous, remarkably painterly poet.&rdquo;
               <br />
-              <span className="italic">{'- The Kenyon Review'}</span>
+              <span className="italic">- The Kenyon Review</span>
             </blockquote>
           </div>
           <div className="col-md-8">
-            <h6 className="section-header">{'SELECTED ONLINE POEMS'}</h6>
-            {words.online.map((w, i) => {
-              return (
-                <p key={'online' + i}>
-                  <a href={w.url} title={'Read ' + w.title}>
-                    {w.title}
+            <h6 className="section-header">SELECTED ONLINE POEMS</h6>
+            {words.online.map((poem, i) => (
+                <p key={`online${i}`}>
+                  <a href={poem.url} title={`Read ${poem.title}`}>
+                    {poem.title}
                   </a>
-                  <em>{', ' + w.publication}</em>
+                  <em>, {poem.publication}</em>
                 </p>
-              );
-            })}
-            <h6 className="section-header">{'REVIEWS'}</h6>
-            {words.reviews.map((r, i) => {
-              return (
-                <p key={'reviews' + i}>
-                  <em>{r.title}</em>
+              ))}
+            <h6 className="section-header">REVIEWS</h6>
+            {words.reviews.map((book, i) => (
+                <p key={`reviews${i}`}>
+                  <em>{book.title}</em>
                   <br />
-                  {r.reviews.map((rr, ind) => {
+                  {book.reviews.map((review, index) => {
                     return (
                       <a
-                        href={rr.url}
-                        title={
-                          r.title + ' ' + rr.title + ' in ' + rr.publication
-                        }
-                        key={rr.publication.replace(/\s/g, '') + ind}
+                        href={review.url}
+                        title={`${book.title} ${review.title} in ${review.publication}`}
+                        key={`${review.publication.replace(/\s/g, '')}${index}`}
                       >
-                        {rr.title}
-                        <em>{rr.publication}</em>
+                        {review.title}
+                        <em>{review.publication}</em>
                         <br />
                       </a>
                     );
                   })}
                 </p>
-              );
-            })}
-            <h6 className="section-header">{'CONVERSATIONS'}</h6>
+              ))}
+            <h6 className="section-header">CONVERSATIONS</h6>
             <p>
-              {words.conversations.map((c, i) => {
-                return (
+              {words.conversations.map((conversation, i) => (
                   <a
-                    href={c.url}
-                    key={'conversations' + i}
-                    title={'Conversation with ' + c.with}
+                    href={conversation.url}
+                    key={`conversations${i}`}
+                    title={`Conversation with ${conversation.with}`}
                   >
-                    {'with '}
-                    <em>{c.with}</em>
+                    with <em>{conversation.with}</em>
                     <br />
                   </a>
-                );
-              })}
+                ))}
             </p>
           </div>
         </div>
@@ -74,4 +63,4 @@ function Words() {
   );
 }
 
-module.exports = Words;
+export default Words;

@@ -20,14 +20,14 @@ function Email() {
       >
         <div id="mc_embed_signup_scroll">
           <label htmlFor="mce-EMAIL">
-            SUBSCRIBE TO KAVEH'S <br />EMAIL LIST
+            SUBSCRIBE TO KAVEH'S EMAIL LIST
           </label>
           <input
             type="email"
             name="EMAIL"
             className="email"
             id="mce-EMAIL"
-            placeholder="Email Address"
+            placeholder="EMAIL ADDRESS"
             required
           />
           <div style={formStyles} aria-hidden="true">

@@ -1,282 +1,40 @@
-const readings = [
+/*
+  TODO: Add template
   {
     url: '',
-    date: 'JAN 26, 2018',
+    date: '',
     time: '',
-    name: 'The Poetry Center of Chicago',
+    name: '',
     guests: '',
     location: '',
-    address: 'Chicago, IL'
-  },
-  {
-    url: '',
-    date: 'FEB 1, 2018',
-    time: '',
-    name: 'Washington State U',
-    guests: '',
-    location: '',
-    address: 'Pullman, WA'
-  },
-  {
-    url: '',
-    date: 'FEB 10, 2018',
-    time: '',
-    name: 'Florida State University',
-    guests: '',
-    location: '',
-    address: 'Talahassee, FL'
-  },
-  {
-    url: '',
-    date: 'FEB 12, 2018',
-    time: '',
-    name: 'University of Alabama',
-    guests: '',
-    location: '',
-    address: 'Tuscaloosa, AL'
-  },
-  {
-    url: '',
-    date: 'FEB 15, 2018',
-    time: '',
-    name: 'University of Southern Indiana',
-    guests: '',
-    location: '',
-    address: 'Evansville, IN'
-  },
-  {
-    url: '',
-    date: 'FEB 20, 2018',
-    time: '',
-    name: 'University of St. Francis',
-    guests: '',
-    location: '',
-    address: 'Fort Wayne, IN'
-  },
-  {
-    url: '',
-    date: 'FEB 24, 2018',
-    time: '',
-    name: 'Arizona State University',
-    guests: '',
-    location: '',
-    address: 'Tempe, AZ'
-  },
-  {
-    url: '',
-    date: 'FEB 28, 2018',
-    time: '',
-    name: 'Kellogg Writers Series',
-    guests: '',
-    location: '',
-    address: 'Indianpolis, IN'
-  },
-  {
-    url: '',
-    date: 'MAR 1, 2018',
-    time: '',
-    name: 'Malone University',
-    guests: '',
-    location: '',
-    address: 'Canton, OH'
-  },
-  {
-    url: '',
-    date: 'MAR 12-18, 2018',
-    time: '',
-    name: 'London Shows',
-    guests: '',
-    location: '',
-    address: 'London, UK'
-  },
-  {
-    url: '',
-    date: 'MAR 21, 2018',
-    time: '',
-    name: 'Brockport Writers Forum Reading Series',
-    guests: '',
-    location: '',
-    address: 'Rochester, NY'
-  },
-  {
-    url: '',
-    date: 'MAR 22, 2018',
-    time: '',
-    name: 'NYU Lillian Vernon Reading Series Invitation',
-    guests: '',
-    location: '',
-    address: 'New York, NY'
-  },
-  {
-    url: '',
-    date: 'MAR 23, 2018',
-    time: '',
-    name: 'Manhattan College',
-    guests: '',
-    location: '',
-    address: 'Bronx, NY'
-  },
-  {
-    url: '',
-    date: 'APR 3, 2018',
-    time: '',
-    name: 'Wright State',
-    guests: '',
-    location: '',
-    address: 'Fairborn, OH'
-  },
-  {
-    url: '',
-    date: 'APR 5, 2018',
-    time: '',
-    name: 'Pacific Lutheran University',
-    guests: '',
-    location: '',
-    address: 'Tacoma, WA'
-  },
-  {
-    url: '',
-    date: 'APR 10, 2018',
-    time: '',
-    name: "Midewest Writer's Workshop",
-    guests: '',
-    location: '',
-    address: 'Muncie, IN'
-  },
-  {
-    url: '',
-    date: 'APR 13, 2018',
-    time: '',
-    name: 'Lake Norman Charter High School',
-    guests: '',
-    location: '',
-    address: 'Charlotte, NC'
-  },
-  {
-    url: '',
-    date: 'APR 17, 2018',
-    time: '',
-    name: 'Western Illinois University',
-    guests: '',
-    location: '',
-    address: 'Macomb, IL'
-  },
-  {
-    url: '',
-    date: 'APR 19, 2018',
-    time: '',
-    name: 'Whitman College',
-    guests: '',
-    location: '',
-    address: 'Walla Walla, WA'
-  },
-  {
-    url: '',
-    date: 'APR 21, 2018',
-    time: '',
-    name: 'Wider Than the Sky',
-    guests: '',
-    location: '',
-    address: 'Los Angeles, CA'
-  },
-  {
-    url: '',
-    date: 'APR 22, 2018',
-    time: '',
-    name: 'LA Times Festival of Books',
-    guests: '',
-    location: '',
-    address: 'Los Angeles, CA'
-  },
-  {
-    url: '',
-    date: 'APR 26, 2018',
-    time: '',
-    name: 'Fields Magazine',
-    guests: '',
-    location: '',
-    address: 'Austin, TX'
-  },
-  {
-    url: '',
-    date: 'APR 27, 2018',
-    time: '',
-    name: 'NGC Bocas Lit Fest',
-    guests: '',
-    location: '',
-    address: 'Port of Spain, Trinidad & Tobago'
-  },
-  {
-    url:
-      'https://www.poetshouse.org/programs-and-events/other-events/literary-partners-program-power-dynamics-poetry-conversation-kaveh',
-    date: 'MAY 2, 2018',
-    time: '6-8PM',
-    name: 'Power Dynamics in Poetry',
-    guests: 'A Conversation with Kaveh Akbar & Rachel Zucker',
-    location: 'Poets House',
-    address: 'New York, NY'
-  },
-  {
-    url: '',
-    date: 'MAY 3, 2018',
-    time: '',
-    name: 'Lafayette College',
-    guests: '',
-    location: '',
-    address: 'Easton, PA'
-  },
-  {
-    url: '',
-    date: 'MAY 5, 2018',
-    time: '',
-    name: 'Massachusettes Poetry Festival',
-    guests: '',
-    location: '',
-    address: 'Boston, MA'
-  },
-  {
-    url: '',
-    date: 'MAY 12, 2018',
-    time: '',
-    name: 'Flyover Festival',
-    guests: '',
-    location: '',
-    address: 'Columbus, OH'
-  },
-  {
-    url: '',
-    date: 'MAY 18-20, 2018',
-    time: '',
-    name: 'Greensboro Book Fair',
-    guests: '',
-    location: '',
-    address: 'Greensboro, NC'
-  },
-  {
-    url: '',
-    date: 'MAY 22, 2018',
-    time: '',
-    name: 'Folger Shakespeare Library',
-    guests: '',
-    location: '',
-    address: 'Washington, DC'
-  },
-  {
-    url: '',
-    date: 'JUN 16-20, 2018',
-    time: '',
-    name: 'Bucknell University',
-    guests: '',
-    location: '',
-    address: 'Lewisburg, PA'
+    address: ''
   }
-];
+*/
+const readings = [];
 
 const books = [
   {
+    url: '',
+    title: 'Pilgrim Bell',
+    img: 'pilgrim-bell',
+    quotes: [
+      {
+        quote: 'There is much that can be said about Kaveh Akbar’s commitment to a sprawling and touchable image, or a line that breaks at the perfect moment. But what thrilled me most about this book was another commitment: the commitment to writing discomfort, or ugliness. Doing it well, and doing it without insisting upon beautification. Pilgrim Bell is a book that chooses honesty over beauty, which makes it a breathtaking text.',
+        speaker: 'Hanif Abdurraqib',
+        publication: ''
+      },
+      {
+        quote:
+          'Kaveh Akbar is truly a great writer, and his new collection Pilgrim Bell is a marvel. Like his previous work, it dazzles us. Akbar is an unlikely prophet—hilarious and irreverent and self-deprecating. Yet even nonbelievers will travel the circles of faith and hellscape, love and rebuke, through his captivating voice. He is incapable of setting down a line that’s less than luminous. Pilgrim Bell is destined to become a classic, another blazing torch added to the eternal flames.',
+        speaker: 'Mary Karr',
+        publication: ''
+      }
+    ]
+  },
+  {
     url: 'https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678',
     title: 'Calling A Wolf A Wolf',
-    img: 'calling-a-wolf-a-wolf.jpg',
+    img: 'calling-a-wolf-a-wolf',
     quotes: [
       {
         quote: 'A breathtaking addition to the canon of addiction literature.',
@@ -300,7 +58,7 @@ const books = [
   {
     url: 'https://www.amazon.com/Portrait-Alcoholic-Kaveh-Akbar/dp/1943977275',
     title: 'Portrait of the Alcoholic',
-    img: 'portait-of-the-alcoholic.jpg',
+    img: 'portait-of-the-alcoholic',
     quotes: [
       {
         quote:
@@ -310,9 +68,9 @@ const books = [
       },
       {
         quote:
-          "Was it Jung who speculated that alcoholism might be an attempt at a material solution for a spiritual problem? Kaveh Akbar seems able to contain both--he's a demotic, as well as a spiritual, poet (the only type of either I trust). Each word in this little book might rise up from somewhere deep in the earth, but they turn into stars.",
-        speaker: 'Nick Flynn',
-        publication: ''
+          "How does one oscillate between passion and danger? Creative thirst and the thirst that kills? The need to possess by naming and the desire to let what is wild be wild and nameless? Akbar makes no apologies for hunger in this chapbook.",
+        speaker: '',
+        publication: 'Los Angeles Review'
       }
     ]
   }
@@ -321,15 +79,14 @@ const books = [
 const words = {
   online: [
     {
+      title: 'Reading Farrokhzad in a Pandemic',
+      url: 'https://lithub.com/reading-farrokhzad-in-a-pandemic/',
+      publication: 'Lit Hub'
+    },
+    {
       title: 'The Palace',
       url: 'https://www.newyorker.com/magazine/poems/kaveh-akbar-the-palace',
       publication: 'The New Yorker'
-    },
-    {
-      title: 'No is a Complete Sentence',
-      url:
-        'http://www.nereview.com/vol-37-no-4-2016/no-is-a-complete-sentence/',
-      publication: 'New England Review'
     },
     {
       title: 'Seven Poems',
@@ -386,22 +143,6 @@ const words = {
       url:
         'https://www.poetrysociety.org/psa/awards/annual/winners/2016/award_9/',
       publication: 'Poetry Society of America'
-    },
-    {
-      title: 'Portrait of the Alcoholic with Shattered Pelvis',
-      url: 'http://garev.uga.edu/summer16/akbar.html',
-      publication: 'Georgia Review'
-    },
-    {
-      title: 'Seven Poems',
-      url: 'http://aprweb.org/poems/exciting-the-canvas',
-      publication: 'American Poetry Review'
-    },
-    {
-      title: 'Palmyra',
-      url:
-        'http://www.pbs.org/newshour/poetry/poet-remembers-the-man-who-fought-and-died-to-save-palmyra/',
-      publication: 'PBS NewsHour'
     }
   ],
   reviews: [
@@ -483,29 +224,17 @@ const words = {
   ],
   conversations: [
     {
+      url: 'https://www.pw.org/content/qa_akbar_edits_poetry_of_the_nation',
+      with: 'Poets & Writers'
+    },
+    {
       url:
         'https://www.npr.org/2018/01/14/577712874/kaveh-akbar-is-poetrys-biggest-cheerleader',
       with: 'NPR'
     },
     {
-      url:
-        'https://www.bostonglobe.com/arts/books/2018/04/26/poet-who-reads-poetry-constantly/BXLbS55GpG5g75GNURVMWP/story.html',
-      with: 'The Boston Globe'
-    },
-    {
-      url:
-        'https://lithub.com/kaveh-akbar-bewilderment-is-at-the-core-of-every-great-poem/',
+      url: 'https://lithub.com/kaveh-akbar-bewilderment-is-at-the-core-of-every-great-poem/',
       with: 'Lit Hub'
-    },
-    {
-      url:
-        'https://thegeorgiareview.com/online/back-and-forth-with-kaveh-akbar/',
-      with: 'The Georgia Review'
-    },
-    {
-      url:
-        'http://www.pbs.org/newshour/poetry/poet-remembers-the-man-who-fought-and-died-to-save-palmyra/',
-      with: 'PBS NewsHour'
     }
   ],
   press: [
@@ -592,4 +321,8 @@ const words = {
   ]
 };
 
-export { readings, books, words };
+export {
+  readings,
+  books,
+  words
+};

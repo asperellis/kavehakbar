@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Home from './Home';
@@ -28,8 +28,8 @@ class App extends React.Component {
                       <div className="container">
                         <div className="row">
                           <div className="col-md-12">
-                            <h1 className="center">{'Oops'}</h1>
-                            <p>{'Sorry, this page does not exist.'}</p>
+                            <h1 className="center">Oops</h1>
+                            <p>Sorry, this page does not exist.</p>
                           </div>
                         </div>
                       </div>

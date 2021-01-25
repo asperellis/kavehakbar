@@ -8,29 +8,33 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "webpack",
-    "start": "webpack-dev-server --open",
-    "production": "webpack -p"
+    "start": "webpack serve --mode=development",
+    "production": "webpack --mode=production"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": ["@babel/preset-react"]
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.5.1",
-    "babel-preset-react": "^6.24.1",
-    "bootstrap": "^4.0.0-alpha.6",
-    "css-loader": "^0.28.2",
-    "file-loader": "^0.11.1",
-    "html-webpack-plugin": "^2.28.0",
-    "image-webpack-loader": "^3.3.1",
-    "style-loader": "^0.18.0",
-    "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.4.5"
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "bootstrap": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "image-webpack-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "*"
   }
 }

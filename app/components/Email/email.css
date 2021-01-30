@@ -27,8 +27,8 @@
 #mc_embed_signup label {
   display: block;
   font-size: 13px;
-  flex: 1;
-  margin-bottom: 10px;
+  flex: 1 0 100%;
+  margin-bottom: 18px;
   text-align: center;
   line-height: 1.2;
   margin-top: 20px;
@@ -42,6 +42,23 @@
   min-height: 32px;
   width: 100%;
   padding: 10px 17px;
+  flex: 1 0 65%;
+}
+
+#mc_embed_signup input.email::placeholder {
+  color: rgb(33, 33, 33);
+  opacity: 0.75;
+  font-weight: 700;
+}
+
+#mc_embed_signup input.email:-ms-input-placeholder {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+}
+
+#mc_embed_signup input.email::-ms-input-placeholder {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
 }
 
 #mc_embed_signup .button {
@@ -49,11 +66,18 @@
   margin-bottom: 0;
   display: block;
   width: 100%;
+  flex: 1 0 35%;
+  margin-top: 0;
+  border-left: none;
 }
 
 #mc_embed_signup_scroll {
-  display: block;
   width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-top: 1px solid #000;
 }
 
 #mc_embed_signup_scroll br {
@@ -62,8 +86,10 @@
 
 @media (min-width: 992px) {
   #mc_embed_signup_scroll {
-    display: flex;
     align-items: center;
+    border-top: none;
+    margin-top: 0;
+    flex-wrap: nowrap;
   }
 
   #mc_embed_signup label {
@@ -71,6 +97,7 @@
     margin-right: 20px;
     margin-top: 0;
     margin-bottom: 0;
+    flex: 1;
   }
 
   #mc_embed_signup_scroll br {
@@ -81,11 +108,14 @@
     display: inline-block;
     margin-top: 0;
     width: auto;
+    flex: inherit;
+    border-left: 1px solid #000;
   }
 
   #mc_embed_signup input.email {
     width: auto;
     display: inline-block;
     border-right: none;
+    flex: inherit;
   }
 }

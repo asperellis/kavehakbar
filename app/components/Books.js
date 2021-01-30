@@ -1,8 +1,9 @@
 import React from 'react';
 import {books} from './../content/content';
+import BuyButton from './BuyButton/BuyButton';
 import callingAWolfAWolfCover from './../images/calling-a-wolf-a-wolf.jpg';
 import portaitOfTheAlcoholicCover from './../images/portait-of-the-alcoholic.jpg';
-import pilgrimBellCover from './../images/pilgrim-bell.png';
+import pilgrimBellCover from './../images/pilgrim-bell.jpg';
 
 const COVERS = {
   "calling-a-wolf-a-wolf": callingAWolfAWolfCover,
@@ -43,7 +44,7 @@ function Books() {
                         </p>
                       ))}
                   </div>
-                  <a href={book.url} className="button" title={`Order ${book.title}`}>ORDER ONLINE</a>
+                  <BuyButton links={book.urls} preorder={book.preorder} title={`Order ${book.title} Online`} />
                 </div>
               </div>
             ))}

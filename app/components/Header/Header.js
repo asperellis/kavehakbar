@@ -6,13 +6,23 @@ import './header.css';
 class Header extends React.Component {
   constructor(props) {
     super(props);
+    this.nav = React.createRef();
     this.state = {
       mobileNavOpen: false
     };
 
+    this.handleClickOutside = this.handleClickOutside.bind(this);
     this.handleMobileNav = this.handleMobileNav.bind(this);
     this.closeNav = this.closeNav.bind(this);
   }
+
+  handleClickOutside(event) {
+    if (this.nav.current && !this.nav.current.contains(event.target)) {
+      if (this.state.mobileNavOpen) {
+        this.closeNav();
+      }
+    }
+  };
 
   handleMobileNav() {
     this.setState(function() {
@@ -30,6 +40,14 @@ class Header extends React.Component {
     });
   }
 
+  componentDidMount() {
+    document.addEventListener("mousedown", this.handleClickOutside);
+  }
+  
+  componentWillUnmount() {
+    document.removeEventListener("mousedown", this.handleClickOutside);
+  }
+
   render() {
     return (
       <header className="header">
@@ -43,7 +61,7 @@ class Header extends React.Component {
             <div className="col-md-8">
               <div className="row hidden-md-up">
                 <div className="col-md-12">
-                  <nav className="mobile-nav">
+                  <nav className="mobile-nav" ref={this.nav}>
                     <a onClick={this.handleMobileNav} className="mobile-nav-toggle" title="Expand Menu">MENU</a>
                   </nav>
                 </div>

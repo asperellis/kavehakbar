@@ -14,7 +14,25 @@ const readings = [];
 
 const books = [
   {
-    url: '',
+    urls: [
+      {
+        text: 'Graywolf',
+        url: 'https://www.graywolfpress.org/books/pilgrim-bell'
+      },
+      {
+        text: 'IndieBound',
+        url: 'https://www.indiebound.org/book/9781644450598'
+      },
+      {
+        text: 'Elliott Bay',
+        url: 'https://www.elliottbaybook.com/book/9781644450598'
+      },
+      {
+        text: 'Amazon',
+        url: 'https://www.amazon.com/Pilgrim-Bell-Poems-Kaveh-Akbar/dp/1644450593/ref=sr_1_2?dchild=1&keywords=kaveh+akbar&qid=1611949324&sr=8-2'
+      }
+    ],
+    preorder: true,
     title: 'Pilgrim Bell',
     img: 'pilgrim-bell',
     quotes: [
@@ -32,7 +50,24 @@ const books = [
     ]
   },
   {
-    url: 'https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678',
+    urls: [
+      {
+        text: 'Alice James Books',
+        url: 'https://www.alicejamesbooks.org/bookstore/calling-a-wolf-a-wolf#:~:text=Kaveh%20Akbar\'s%20poems%20appear,Alcoholic%2C%20published%20by%20Sibling%20Rivalry'
+      },
+      {
+        text: 'IndieBound',
+        url: 'https://www.indiebound.org/book/9781938584671'
+      },
+      {
+        text: 'Elliott Bay',
+        url: 'https://www.elliottbaybook.com/book/9781938584671'
+      },
+      {
+        text: 'Amazon',
+        url: 'https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678/ref=sr_1_3?dchild=1&qid=1611949395&refinements=p_27%3AKaveh+Akbar&s=books&sr=1-3&text=Kaveh+Akbar'
+      }
+    ],
     title: 'Calling A Wolf A Wolf',
     img: 'calling-a-wolf-a-wolf',
     quotes: [
@@ -56,7 +91,16 @@ const books = [
     ]
   },
   {
-    url: 'https://www.amazon.com/Portrait-Alcoholic-Kaveh-Akbar/dp/1943977275',
+    urls: [
+      {
+        text: 'Sibling Rivalry Press',
+        url: 'https://siblingrivalrypress.bigcartel.com/product/portrait-of-the-alcoholic-by-kaveh-akbar'
+      },
+      {
+        text: 'Amazon',
+        url: 'https://www.amazon.com/Portrait-Alcoholic-Kaveh-Akbar/dp/1943977275/ref=sr_1_1?dchild=1&keywords=portrait+of+the+alcoholic&qid=1611949598&sr=8-1'
+      }
+    ],
     title: 'Portrait of the Alcoholic',
     img: 'portait-of-the-alcoholic',
     quotes: [

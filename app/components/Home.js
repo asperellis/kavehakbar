@@ -1,7 +1,9 @@
 import React from 'react';
+import {books} from './../content/content';
+import BuyButton from './BuyButton/BuyButton';
 import wolfCover from './../images/calling-a-wolf-a-wolf-uk.jpg';
 import featuredLogos from './../images/featured-logos.gif';
-import pilgrimBellCover from './../images/pilgrim-bell.png';
+import pilgrimBellCover from './../images/pilgrim-bell.jpg';
 
 function Home() {
   return (
@@ -20,17 +22,11 @@ function Home() {
                 <p>&ldquo;Kaveh Akbar is truly a great writer, and his new collection <em>Pilgrim Bell</em> is a marvel. Like his previous work, it dazzles us. Akbar is an unlikely prophet—hilarious and irreverent and self-deprecating. Yet even nonbelievers will travel the circles of faith and hellscape, love and rebuke, through his captivating voice. He is incapable of setting down a line that’s less than luminous. <em>Pilgrim Bell</em> is destined to become a classic, another blazing torch added to the eternal flames.&rdquo;<br />—<strong>Mary Karr</strong></p>
               </div>
             </div>
-            <a
-              href="https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678"
-              className="button"
-              title="Order Calling A Wolf A Wolf Online"
-            >
-              ORDER ONLINE
-            </a>
+            <BuyButton links={books.find(b => b.title === 'Pilgrim Bell').urls} preorder={true} title={'Pre-Order Pilgrim Bell Online'} />
           </div>
           <div className="col-md-4">
             <a
-              href="https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678"
+              href="https://www.graywolfpress.org/books/pilgrim-bell"
               title="Pre-Order Pilgrim Bell Online"
             >
               <img
@@ -46,7 +42,7 @@ function Home() {
           <div className="row">
           <div className="col-md-4">
             <a
-              href="https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678"
+              href="https://www.alicejamesbooks.org/bookstore/calling-a-wolf-a-wolf#:~:text=Kaveh%20Akbar\'s%20poems%20appear,Alcoholic%2C%20published%20by%20Sibling%20Rivalry"
               title="Order Calling A Wolf A Wolf Online"
             >
               <img
@@ -101,13 +97,7 @@ function Home() {
                 </p>
               </div>
             </div>
-            <a
-              href="https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678"
-              className="button"
-              title="Order Calling A Wolf A Wolf Online"
-            >
-              ORDER ONLINE
-            </a>
+            <BuyButton links={books.find(b => b.title === 'Calling A Wolf A Wolf').urls} title={'Order Calling A Wolf A Wolf Online'} />
           </div>
         </div>
         </article>

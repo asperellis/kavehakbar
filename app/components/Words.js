@@ -15,14 +15,16 @@ function Words() {
           </div>
           <div className="col-md-8">
             <h6 className="section-header">SELECTED ONLINE POEMS</h6>
-            {words.online.map((poem, i) => (
-                <p key={`online${i}`}>
-                  <a href={poem.url} title={`Read ${poem.title}`}>
-                    {poem.title}
-                  </a>
-                  <em>, {poem.publication}</em>
-                </p>
-              ))}
+            <p>
+              {words.online.map((poem, i) => (
+                    <div className="poem">
+                      <a href={poem.url} title={`Read ${poem.title}`} key={`online${i}`}>
+                        {poem.title}
+                      </a>
+                      <em>, <br className="poem-line-break" />{poem.publication}</em>
+                    </div>
+                ))}
+            </p>
             <h6 className="section-header">REVIEWS</h6>
             {words.reviews.map((book, i) => (
                 <p key={`reviews${i}`}>

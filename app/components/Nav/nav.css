@@ -31,6 +31,8 @@
     overflow: inherit;
     border-bottom: none;
     top: auto;
+    left: auto;
+    right: auto;
     transform: none;
   }
 

@@ -287,3 +287,21 @@ p + .section-header,
     display: none;
   }
 }
+
+.poem {
+  margin-bottom: 10px;
+}
+
+.poem-line-break {
+  display: block;
+}
+
+@media (min-width: 991px) {
+  .poem {
+    margin-bottom: 0;
+  }
+
+  .poem-line-break {
+    display: none;
+  }
+}

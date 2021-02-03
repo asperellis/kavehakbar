@@ -26,7 +26,7 @@ function Books() {
                       className="img-fluid book-cover"
                     />
                   </a>
-                  <h6 className="book-header">BOOK</h6>
+                  <h6 className="book-header">{book.type || 'BOOK'}</h6>
                   <h4 className="book-title">
                     <em>{book.title.toUpperCase()}</em>
                   </h4>
@@ -36,9 +36,9 @@ function Books() {
                           className="book-quote"
                           key={`${book.title.replace(/\s/g, '')}q${index}`}
                         >
-                          {q.quote}
-                          <br />
-                          {q.speaker && `- ${q.speaker}`}
+                          <span dangerouslySetInnerHTML={{__html: q.quote}}></span>
+                          <br />- 
+                          {q.speaker && ` ${q.speaker}`}
                           {q.publication && ' in '}
                           {q.publication && <em>{q.publication}</em>}
                         </p>

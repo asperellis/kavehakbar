@@ -33,17 +33,17 @@ const books = [
       }
     ],
     preorder: true,
+    type: 'BOOK',
     title: 'Pilgrim Bell',
     img: 'pilgrim-bell',
     quotes: [
       {
-        quote: 'There is much that can be said about Kaveh Akbar’s commitment to a sprawling and touchable image, or a line that breaks at the perfect moment. But what thrilled me most about this book was another commitment: the commitment to writing discomfort, or ugliness. Doing it well, and doing it without insisting upon beautification. Pilgrim Bell is a book that chooses honesty over beauty, which makes it a breathtaking text.',
-        speaker: 'Hanif Abdurraqib',
+        quote: 'Akbar writes like someone who has chosen to dig right into what we are as if to die from it, but then does not die and brings us the fullness of what that could look and sound like. We need <em>Pilgrim Bell</em>. We need Kaveh Akbar.',
+        speaker: 'Tommy Orange',
         publication: ''
       },
       {
-        quote:
-          'Kaveh Akbar is truly a great writer, and his new collection Pilgrim Bell is a marvel. Like his previous work, it dazzles us. Akbar is an unlikely prophet—hilarious and irreverent and self-deprecating. Yet even nonbelievers will travel the circles of faith and hellscape, love and rebuke, through his captivating voice. He is incapable of setting down a line that’s less than luminous. Pilgrim Bell is destined to become a classic, another blazing torch added to the eternal flames.',
+        quote: 'Kaveh Akbar is truly a great writer, and his new collection <em>Pilgrim Bell</em> is a marvel... <em>Pilgrim Bell</em> is destined to become a classic, another blazing torch added to the eternal flames.',
         speaker: 'Mary Karr',
         publication: ''
       }
@@ -69,17 +69,18 @@ const books = [
       }
     ],
     title: 'Calling A Wolf A Wolf',
+    type: 'BOOK',
     img: 'calling-a-wolf-a-wolf',
     quotes: [
       {
         quote: 'A breathtaking addition to the canon of addiction literature.',
-        speaker: 'Starred Review',
+        speaker: 'starred review',
         publication: 'Publishers Weekly'
       },
       {
         quote:
           'Akbar proves what books can do in his exceptional debut, which brings us along on his struggle with addiction, a dangerous comfort and soul-eating monster he addresses boldly.',
-        speaker: 'Starred Review',
+        speaker: 'starred review',
         publication: 'Library Journal'
       },
       {
@@ -103,6 +104,7 @@ const books = [
     ],
     title: 'Portrait of the Alcoholic',
     img: 'portait-of-the-alcoholic',
+    type: 'CHAPBOOK',
     quotes: [
       {
         quote:
@@ -219,13 +221,13 @@ const words = {
         },
         {
           url: 'https://www.publishersweekly.com/978-1-938584-67-1',
-          title: 'STARRED review in ',
+          title: 'starred review in ',
           publication: 'Publishers Weekly'
         },
         {
           url:
             'http://lj.libraryjournal.com/bestbooks2017/poetry_literature.php',
-          title: 'STARRED review in ',
+          title: 'starred review in ',
           publication: 'Library Journal'
         },
         {

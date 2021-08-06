@@ -12,7 +12,9 @@
     "production": "webpack --mode=production"
   },
   "babel": {
-    "presets": ["@babel/preset-react"]
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "dependencies": {
     "react": "*",

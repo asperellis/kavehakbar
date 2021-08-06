@@ -25,6 +25,17 @@ function Words() {
                     </div>
                 ))}
             </p>
+            <h6 className="section-header">SELECTED ONLINE PROSE</h6>
+            <p>
+              {words.prose.map((prose, i) => (
+                    <div className="poem">
+                      <a href={prose.url} title={`Read ${prose.title}`} key={`prose${i}`}>
+                        {prose.title}
+                      </a>
+                      <em>, <br className="poem-line-break" />{prose.publication}</em>
+                    </div>
+                ))}
+            </p>
             <h6 className="section-header">REVIEWS</h6>
             {words.reviews.map((book, i) => (
                 <p key={`reviews${i}`}>

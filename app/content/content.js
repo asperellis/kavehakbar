@@ -1,16 +1,176 @@
-/*
-  TODO: Add template
+const readings = [
   {
     url: '',
-    date: '',
+    date: 'Jul 24, 2021',
     time: '',
-    name: '',
+    name: 'New York City Poetry Festival',
     guests: '',
-    location: '',
+    location: 'New York City, NY',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Aug 3, 2021',
+    time: '',
+    name: 'Harvard Bookstore',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: 'https://www.greenapplebooks.com/event/9th-ave-kaveh-akbar',
+    date: 'Aug 5, 2021',
+    time: '',
+    name: 'Green Apple Books',
+    guests: '',
+    location: 'San Francisco, CA',
+    address: ''
+  },
+  {
+    url: 'https://www.eventbrite.com/e/an-evening-with-poet-kaveh-akbar-tickets-160888290207',
+    date: 'Aug 10, 2021',
+    time: '',
+    name: 'BookBug',
+    guests: '',
+    location: 'Kalamazoo, MI',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Aug 12, 2021',
+    time: '',
+    name: 'Go Write it on the Mountain',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Aug 13, 2021',
+    time: '',
+    name: 'Alano Club Artists in Recovery Series',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: 'https://www.womenandchildrenfirst.com/event/outdoor-poetry-reading-pilgrim-bell-kaveh-akbar',
+    date: 'Aug 15, 2021',
+    time: '',
+    name: 'Women & Children First',
+    guests: '',
+    location: 'Chicago, IL',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Aug 16-20, 2021',
+    time: '',
+    name: 'StoryStudio Chicago',
+    guests: '',
+    location: 'Chicago, IL',
+    address: ''
+  },
+  {
+    url: 'https://www.writer.org/event/kaveh-akbar/',
+    date: 'Aug 26, 2021',
+    time: '',
+    name: 'Poet Lore/The Writer’s Center',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 3, 2021',
+    time: '',
+    name: 'Second Flight Books',
+    guests: '',
+    location: 'West Lafayette, IN',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 11, 2021',
+    time: '',
+    name: 'COUPLET Reading Series',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 13, 2021',
+    time: '',
+    name: 'St. Louis Poetry Center',
+    guests: '',
+    location: 'St. Louis, MO',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 21, 2021',
+    time: '',
+    name: 'EcoTheo Reading',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 23, 2021',
+    time: '',
+    name: 'Graywolf Literary Salon',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 25, 2021',
+    time: '',
+    name: 'Common Sense Reading Series',
+    guests: '',
+    location: 'Virtual',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Sep 29-30, 2021',
+    time: '',
+    name: 'Hiram College',
+    guests: '',
+    location: 'Hiram, OH',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Oct 14, 2021',
+    time: '',
+    name: 'Live Wire Reading',
+    guests: '',
+    location: 'Portland, OR',
+    address: ''
+  }, 
+  {
+    url: 'https://lectures.org/event/kaveh-akbar/',
+    date: 'Oct 15, 2021',
+    time: '',
+    name: 'Seattle Arts & Lectures',
+    guests: '',
+    location: 'Seattle, WA',
+    address: ''
+  },
+  {
+    url: '',
+    date: 'Dec 7-8, 2021',
+    time: '',
+    name: 'Sarah Lawrence College',
+    guests: '',
+    location: 'New York City, NY',
     address: ''
   }
-*/
-const readings = [];
+];
 
 const books = [
   {
@@ -47,16 +207,6 @@ const books = [
         speaker: 'Mary Karr',
         publication: ''
       }
-      // {
-      //   quote: '<em>Pilgrim Bell</em> is a book that chooses honesty over beauty, which makes it a breathtaking text.',
-      //   speaker: 'Hanif Abdurraqib',
-      //   publication: ''
-      // },
-      // {
-      //   quote: 'Profound and singular, smart and sad and funny, but most of all truth’s beauty and beauty’s truth sung. Yes, <em>Pilgrim Bell</em> sings... We need <em>Pilgrim Bell</em>. We need Kaveh Akbar.',
-      //   speaker: 'Tommy Orange',
-      //   publication: ''
-      // }
     ]
   },
   {
@@ -185,9 +335,9 @@ const words = {
       publication: 'Split This Rock'
     },
     {
-      title: 'Pilgrim Bell',
-      url: 'https://www.thenation.com/article/pilgrim-bell/',
-      publication: 'The Nation'
+      title: 'My Empire',
+      url: 'https://www.newyorker.com/magazine/2021/04/05/my-empire',
+      publication: 'The New Yorker'
     },
     {
       title: 'Orchids Are Sprouting from the Floorboards',
@@ -199,6 +349,26 @@ const words = {
       url:
         'https://www.poetrysociety.org/psa/awards/annual/winners/2016/award_9/',
       publication: 'Poetry Society of America'
+    }
+  ],
+  prose: [
+    {
+      title: 'On Fasting',
+      url:
+        'https://www.theparisreview.org/blog/2019/06/04/on-fasting/',
+      publication: 'Paris Review'
+    },
+    {
+      title: 'Distress Tolerance: The Body Broken By Alcohol',
+      url:
+        'https://gay.medium.com/the-body-broken-by-alcohol-42e2d2ac86d',
+      publication: 'Gay Mag'
+    },
+    {
+      title: 'The Long Faultless Tongue of God',
+      url:
+        'https://lithub.com/kaveh-akbar-how-i-found-poetry-in-childhood-prayer/',
+      publication: 'Lit Hub'
     }
   ],
   reviews: [

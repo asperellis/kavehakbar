@@ -184,28 +184,28 @@ const books = [
         url: 'https://www.indiebound.org/book/9781644450598'
       },
       {
-        text: 'Elliott Bay',
-        url: 'https://www.elliottbaybook.com/book/9781644450598'
+        text: 'Open Books',
+        url: 'https://open-books-a-poem-emporium.myshopify.com/products/08-03-2021-pilgrim-bell-by-kaveh-akbar?_pos=1&_sid=dc3ff7f67&_ss=r'
       },
       {
         text: 'Amazon',
         url: 'https://www.amazon.com/Pilgrim-Bell-Poems-Kaveh-Akbar/dp/1644450593/ref=sr_1_2?dchild=1&keywords=kaveh+akbar&qid=1611949324&sr=8-2'
       }
     ],
-    preorder: true,
+    preorder: false,
     type: 'BOOK',
     title: 'Pilgrim Bell',
     img: 'pilgrim-bell',
     quotes: [
       {
-        quote: 'Working at and along the outer edges of language, <em>Pilgrim Bell</em> calls us to attention and to attend to that which poetry and prayer share, while simultaneously demanding that we tend to the political, the social, the erotic—all that is quotidian and human. Persimmons and empire; saffron and refugee camps; exile, oleander, and the Rolling Stones—all the stuff of poetry. And of prayer. In <em>Pilgrim Bell</em>, the poet Kaveh Akbar, ‘God’s incarnate spit in the mud,’ takes us down to the ground, to the prosaic, the dismissed and overlooked, the better to talk to the great Silence, bearer of many names including that of God.',
-        speaker: 'M. NourbeSe Philip',
-        publication: ''
+        quote: '<em>Pilgrim Bell</em> is bracing in its honesty and noteworthy in its steadfast adherence to finding the spiritual in even the most mundane settings. Akbar’s mesmerizing dexterity with language is at its most compelling when he is relentlessly pursuing the truth―a hunt that’s present in every poem in this volume.',
+        speaker: '',
+        publication: 'TIME'
       },
       {
-        quote: 'Akbar is an unlikely prophet—hilarious and irreverent and self-deprecating. Yet even nonbelievers will travel the circles of faith and hellscape, love and rebuke, through his captivating voice. He is incapable of setting down a line that’s less than luminous. <em>Pilgrim Bell</em> is destined to become a classic, another blazing torch added to the eternal flames.',
-        speaker: 'Mary Karr',
-        publication: ''
+        quote: 'Akbar is exquisitely sensitive to how language can function as both presence and absence. . . . His practice of taking language apart, and harnessing the empty space around it, makes even the most familiar words seem eerie and unexpected.',
+        speaker: '',
+        publication: 'The New Yorker'
       }
     ]
   },

@@ -1,0 +1,92 @@
+.nav {
+  position: absolute;
+  overflow: hidden;
+  top: 100%;
+  left: 15px;
+  right: 15px;
+  margin: 0;
+  padding: 0;
+  background: rgb(251, 250, 248);
+  list-style: none;
+  transition: all 0.3s cubic-bezier(1, 0.1, 0, 0.9) 0.05s;
+  transform: translateZ(0);
+  max-height: 200px;
+  visibility: visible;
+  z-index: 1;
+  border-bottom: 1px solid black;
+}
+
+.nav:not(.expanded) {
+  max-height: 0;
+  visibility: hidden;
+  transform: translateZ(0);
+}
+
+@media (min-width: 768px) {
+  .nav {
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    position: inherit;
+    overflow: inherit;
+    border-bottom: none;
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+  }
+
+  .nav:not(.expanded) {
+    height: auto;
+    visibility: visible;
+    transform: none;
+  }
+}
+
+.navItem {
+  display: block;
+  text-align: center;
+}
+
+.navItem:hover:before,
+.navItem.active:before {
+  transform: scaleX(0);
+}
+
+@media (min-width: 768px) {
+  .navItem {
+    border-top: 1px solid #000;
+    text-align: left;
+  }
+  .navItem:hover:before,
+  .navItem.active:before {
+    transform: scaleX(1);
+  }
+
+  .navItem:before {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #000;
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 250ms ease-in-out;
+    margin-bottom: 20px;
+  }
+}
+
+.navLink {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .navLink {
+    margin-bottom: 5px;
+    padding: 0;
+  }
+}

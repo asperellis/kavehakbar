@@ -1,0 +1,120 @@
+.emailForm form {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+.emailForm h2 {
+  font-weight: bold;
+  padding: 0;
+  margin: 15px 0;
+  font-size: 1.4em;
+}
+
+.emailForm input {
+  font-family: 'brandon-grotesque', sans-serif;
+  border: 1px solid #000;
+  -webkit-appearance: none;
+  color: #000;
+}
+
+.emailForm input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.emailForm label {
+  display: block;
+  font-size: 13px;
+  flex: 1 0 100%;
+  margin-bottom: 18px;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.emailForm input.email {
+  background-color: transparent;
+  font-size: 13px;
+  display: block;
+  padding: 0 0.4em;
+  min-height: 32px;
+  width: 100%;
+  padding: 10px 17px;
+  flex: 1 0 65%;
+}
+
+.emailForm input.email::placeholder {
+  color: rgb(33, 33, 33);
+  opacity: 0.75;
+  font-weight: 700;
+}
+
+.emailForm input.email:-ms-input-placeholder {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+}
+
+.emailForm input.email::-ms-input-placeholder {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+}
+
+.emailForm .button {
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: block;
+  width: 100%;
+  flex: 1 0 35%;
+  margin-top: 0;
+  border-left: none;
+}
+
+.emailFormScroll {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+}
+
+.emailFormScroll br {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .emailFormScroll {
+    align-items: center;
+    border-top: none;
+    margin-top: 0;
+    flex-wrap: nowrap;
+  }
+
+  .emailForm label {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex: 1;
+  }
+
+  .emailFormScroll br {
+    display: block;
+  }
+
+  .emailForm .button {
+    display: inline-block;
+    margin-top: 0;
+    width: auto;
+    flex: inherit;
+    border-left: 1px solid #000;
+  }
+
+  .emailForm input.email {
+    width: auto;
+    display: inline-block;
+    border-right: none;
+    flex: inherit;
+  }
+}

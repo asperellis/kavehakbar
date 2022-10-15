@@ -4,27 +4,73 @@ import { BuyButton } from '../../components';
 import { getBookByTitle } from '../../service'
 import pilgrimBellCover from '../../images/pilgrim-bell.jpg';
 import wolfCover from '../../images/calling-a-wolf-a-wolf-uk.jpg';
+import spiritualVerseCover from '../../images/spiritual-verse.jpg';
 
+const spiritualVerse = getBookByTitle('The Penguin Book of Spiritual Verse')
 const pilgrimBell = getBookByTitle('Pilgrim Bell');
 const callingAWolfAWolf = getBookByTitle('Calling A Wolf A Wolf');
 
 export const Home = () => {
+  if (!pilgrimBell || !callingAWolfAWolf || !spiritualVerse) {
+    return null
+  }
+
   return (
     <section>
       <div className="container">
+      <article className="book">
+          <div className="row">
+          <div className="col-md-4">
+            <a
+              href="https://www.alicejamesbooks.org/bookstore/calling-a-wolf-a-wolf#:~:text=Kaveh%20Akbar\'s%20poems%20appear,Alcoholic%2C%20published%20by%20Sibling%20Rivalry"
+              title={`Order ${spiritualVerse.title} Online`}
+            >
+              <img
+                src={spiritualVerseCover}
+                alt={spiritualVerse.title}
+                className="img-fluid homepage-cover"
+              />
+            </a>
+          </div>
+          <div className="col-md-8">
+            <h6 className="section-header">NEWS</h6>
+            <h2 className="section-title">
+              <em>THE PENGUIN BOOK OF SPIRITUAL VERSE</em><br/>OUT NOW!
+            </h2>
+            <div className="row">
+              <div className="col-lg-6">
+                <p>&ldquo;There cannot be any other anthology that ranges so widely.&rdquo;<br />—<strong>John Barton</strong></p>
+                <p>&ldquo;A delightful celebration of human creativity, with new insights from a trusted guide: Kaveh Akbar.&rdquo;<br />—<strong>Chine McDonald</strong></p>
+              </div>
+              <div className="col-lg-6">
+                <p>
+                  &ldquo;The chorus of voices gathered offer a balm, a consolation, a tune, in our desolate world.&rdquo;<br />—
+                  <strong>Ilya Kaminsky</strong>
+                </p>
+                <p>
+                  &ldquo;Vibrating across this thick bundle of verse is the animation of the spirit enmeshed with the body, astounding in its ever-shifting forms, its irrepressible music.&rdquo;
+                  <br />—
+                  <strong>Jenny Xie</strong>
+                </p>
+              </div>
+            </div>
+            <BuyButton links={spiritualVerse.urls} title={`Order ${spiritualVerse.title} Online`} />
+          </div>
+        </div>
+        </article>
         <article className="book">
           <div className="row">
           <div className="col-md-8">
             <h6 className="section-header">NEWS</h6>
             <h2 className="section-title">
-              <em>PILGRIM BELL</em> OUT NOW!
+              <em>PILGRIM BELL</em>
             </h2>
             <div className="row">
               <div className="col-lg-12">
                 <p>&ldquo;<em>Pilgrim Bell</em> is bracing in its honesty and noteworthy in its steadfast adherence to finding the spiritual in even the most mundane settings. Akbar's mesmerizing dexterity with language is at its most compelling when he is relentlessly pursuing the truth―a hunt that’s present in every poem in this volume.&rdquo;<br />—<strong><em>TIME</em></strong></p>
                 <p>&ldquo;Akbar is exquisitely sensitive to how language can function as both presence and absence. . . . His practice of taking language apart, and harnessing the empty space around it, makes even the most familiar words seem eerie and unexpected.&rdquo;<br />—<strong><em>The New Yorker</em></strong></p>
                 <p>&ldquo;Working at and along the outer edges of language, <em>Pilgrim Bell</em> calls us to attention and to attend to that which poetry and prayer share.&rdquo;<br />—<strong>M. NourbeSe Philip</strong></p>
-                <p>&ldquo;Profound and singular, smart and sad and funny, but most of all truth’s beauty and beauty’s truth sung... We need <em>Pilgrim Bell</em>. We need Kaveh Akbar.&rdquo;<br />—<strong>Tommy Orange</strong></p>
+                <p>&ldquo;Profound and singular, smart and sad and funny, but most of all truth's beauty and beauty's truth sung... We need <em>Pilgrim Bell</em>. We need Kaveh Akbar.&rdquo;<br />—<strong>Tommy Orange</strong></p>
                 <p>&ldquo;<em>Pilgrim Bell</em> is destined to become a classic, another blazing torch added to the eternal flames.&rdquo;<br />—<strong>Mary Karr</strong></p>
                 <p>&ldquo;<em>Pilgrim Bell</em> is a book that chooses honesty over beauty, which makes it a breathtaking text&rdquo;<br />—<strong>Hanif Abdurraqib</strong></p>
               </div>
@@ -34,11 +80,11 @@ export const Home = () => {
           <div className="col-md-4">
             <a
               href="https://www.graywolfpress.org/books/pilgrim-bell"
-              title={`Order ${pilgrimBell.title} Online`}
+              title={`Order ${pilgrimBell?.title} Online`}
             >
               <img
                 src={pilgrimBellCover}
-                alt={pilgrimBell.title}
+                alt={pilgrimBell?.title}
                 className="img-fluid homepage-cover"
               />
             </a>
@@ -62,7 +108,7 @@ export const Home = () => {
           <div className="col-md-8">
             <h6 className="section-header">NEWS</h6>
             <h2 className="section-title">
-              <em>CALLING A WOLF A WOLF</em> OUT NOW
+              <em>CALLING A WOLF A WOLF</em>
             </h2>
             <div className="row">
               <div className="col-lg-6">

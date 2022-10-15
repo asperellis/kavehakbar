@@ -30,7 +30,9 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "@parcel/transformer-css": {
-    "cssModules": true,
+    "cssModules": {
+      "global": false
+    },
     "drafts": {
       "nesting": true
     }

@@ -9,9 +9,9 @@ export const Layout = () => {
   return (
     <div className={classes.app}>
       <Header />
-      <main role="main" className={classes.main}>
+      <div role="main" className={classes.main}>
         <Outlet />
-      </main>
+      </div>
       <Footer />
     </div>
   )

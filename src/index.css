@@ -1,6 +1,3 @@
-@import 'npm:bootstrap/dist/css/bootstrap-reboot.css';
-@import 'npm:bootstrap/dist/css/bootstrap-grid.css';
-
 body {
   margin: 0;
   padding: 0;
@@ -71,6 +68,10 @@ p a:hover {
   text-decoration: underline;
 }
 
+.readings div a {
+  text-decoration: none;
+}
+
 blockquote {
   font-size: 23px;
 }
@@ -128,7 +129,7 @@ blockquote {
   flex: 1;
 }
 
-.main article.book + article.book {
+article.book + article.book {
   margin-top: 60px;
 }
 
@@ -211,12 +212,12 @@ p + .section-header,
   }
 }
 
-.words p + .section-header {
+.words div + .section-header {
   margin-top: 45px;
 }
 
 @media (min-width: 768px) {
-  .words p + .section-header {
+  .words div + .section-header {
     margin-top: 30px;
   }
 }
@@ -243,6 +244,10 @@ p + .section-header,
   -ms-flex: 1;
   flex: 1;
   margin-top: 0;
+}
+
+.books .row {
+  row-gap: 30px;
 }
 
 .reading-date {

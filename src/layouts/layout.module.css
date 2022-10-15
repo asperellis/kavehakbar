@@ -17,3 +17,8 @@
     display: flex;
     flex-direction: column;
 }
+
+.main div a,
+.main div a:hover {
+  text-decoration: underline;
+}

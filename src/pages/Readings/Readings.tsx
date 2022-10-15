@@ -5,7 +5,7 @@ import { getReadings } from '../../service';
 const readings = getReadings()
 
 export const Readings = () => (
-  <section>
+  <section className='readings'>
     <div className="container">
       <div className="row">
         <div className="col-md-4">

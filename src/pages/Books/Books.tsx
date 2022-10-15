@@ -6,19 +6,21 @@ import { getBooks } from '../../service';
 import callingAWolfAWolfCover from '../../images/calling-a-wolf-a-wolf.jpg';
 import portaitOfTheAlcoholicCover from '../../images/portait-of-the-alcoholic.jpg';
 import pilgrimBellCover from '../../images/pilgrim-bell.jpg';
+import spiritualVerseCover from '../../images/spiritual-verse.jpg';
 
 const COVERS: Record<string, string> = {
   "calling-a-wolf-a-wolf": callingAWolfAWolfCover,
   "portait-of-the-alcoholic": portaitOfTheAlcoholicCover,
-  "pilgrim-bell": pilgrimBellCover
+  "pilgrim-bell": pilgrimBellCover,
+  "spiritual-verse": spiritualVerseCover
 };
 
 export const Books = () => (
-  <section>
+  <section className='books'>
     <div className="container">
       <div className="row">
         {getBooks().map(book => (
-            <div className={'col-lg-4 col-md-4'} key={book.title}>
+            <div className={'col-lg-3 col-md-6'} key={book.title}>
               <div className="book d-flex flex-column">
                 <a href={book.urls[0].url} title={`Order ${book.title}`}>
                   <img

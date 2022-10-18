@@ -39,10 +39,6 @@ export const Readings = () => (
               )) :
             <p>Online event schedule to come.</p>
           }
-          <h6 className="section-header">PAST READINGS</h6>
-          <div className="reading d-flex flex-row">
-            <p>Past readings, lectures, workshops, and appearances include the Poetry Foundation in Chicago, Bryant Park Reading Series in NYC, the Pulitzer Arts Foundation, St. Mark's Poetry Project, New York University, AWP, National Arts Club, KGB Reading Series, the Dodge Poetry Festival, the Amherst Poetry Festival, and many others.</p>
-          </div>
         </div>
       </div>
     </div>

@@ -10,9 +10,9 @@ export const Words = () => {
         <div className="row">
           <div className="col-md-4">
             <blockquote>
-              &ldquo;Akbar is a sumptuous, remarkably painterly poet.&rdquo;
+              &ldquo;Akbar is exquisitely sensitive to how language can function as both presence and absence.&rdquo;
               <br />
-              <span className="italic">- The Kenyon Review</span>
+              <span className="italic">- The New Yorker</span>
             </blockquote>
           </div>
           <div className="col-md-8">

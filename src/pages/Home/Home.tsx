@@ -39,10 +39,14 @@ export const Home = () => {
             </h2>
             <div className="row">
               <div className="col-lg-6">
-                <p>&ldquo;There cannot be any other anthology that ranges so widely.&rdquo;<br />—<strong>John Barton</strong></p>
+                <p>
+                &ldquo;A profoundly valuable (and finely produced) collection, full of fresh perspective, and opening doors into all kinds of material that has been routinely neglected or patronized. Akbar's deeply personal framing of such a varied collection helps the reader pick up the threads of continuity through immense cultural diversities, without reducing any of these texts to blandness.&rdquo;<br/>-<em><strong>The Times Literary Supplement</strong></em>
+
+                </p>
                 <p>&ldquo;A delightful celebration of human creativity, with new insights from a trusted guide: Kaveh Akbar.&rdquo;<br />—<strong>Chine McDonald</strong></p>
               </div>
               <div className="col-lg-6">
+                <p>&ldquo;There cannot be any other anthology that ranges so widely.&rdquo;<br />—<strong>John Barton</strong></p>
                 <p>
                   &ldquo;The chorus of voices gathered offer a balm, a consolation, a tune, in our desolate world.&rdquo;<br />—
                   <strong>Ilya Kaminsky</strong>
@@ -66,9 +70,11 @@ export const Home = () => {
               <em>PILGRIM BELL</em>
             </h2>
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-6">
                 <p>&ldquo;<em>Pilgrim Bell</em> is bracing in its honesty and noteworthy in its steadfast adherence to finding the spiritual in even the most mundane settings. Akbar's mesmerizing dexterity with language is at its most compelling when he is relentlessly pursuing the truth―a hunt that’s present in every poem in this volume.&rdquo;<br />—<strong><em>TIME</em></strong></p>
                 <p>&ldquo;Akbar is exquisitely sensitive to how language can function as both presence and absence. . . . His practice of taking language apart, and harnessing the empty space around it, makes even the most familiar words seem eerie and unexpected.&rdquo;<br />—<strong><em>The New Yorker</em></strong></p>
+              </div>
+              <div className="col-lg-6">
                 <p>&ldquo;Working at and along the outer edges of language, <em>Pilgrim Bell</em> calls us to attention and to attend to that which poetry and prayer share.&rdquo;<br />—<strong>M. NourbeSe Philip</strong></p>
                 <p>&ldquo;Profound and singular, smart and sad and funny, but most of all truth's beauty and beauty's truth sung... We need <em>Pilgrim Bell</em>. We need Kaveh Akbar.&rdquo;<br />—<strong>Tommy Orange</strong></p>
                 <p>&ldquo;<em>Pilgrim Bell</em> is destined to become a classic, another blazing torch added to the eternal flames.&rdquo;<br />—<strong>Mary Karr</strong></p>

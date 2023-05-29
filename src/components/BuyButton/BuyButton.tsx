@@ -15,7 +15,7 @@ export const BuyButton = ({links, preorder = false, title}: BuyButtonProps) => {
   const [expanded, setExpanded] = React.useState(false);
 
   React.useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (event: any) => {
       if (container.current && !container.current.contains(event.target) && expanded) {
         setExpanded(false)
       }

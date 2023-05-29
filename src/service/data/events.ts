@@ -1,6 +1,6 @@
-import { Reading } from "../../types";
+import { Event } from "../../types";
 
-export const readings: Reading[] = [
+export const events: Event[] = [
     // {
     //   url: '',
     //   date: 'Jul 24, 2021',

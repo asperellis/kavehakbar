@@ -38,11 +38,11 @@ export const Nav = ({mobileNavOpen, onClick}: NavProps) => {
         <div className="col-md-3">
           <NavLink
             className={navLinkClassName}
-            title="Past and Upcoming Readings"
-            to="/readings"
+            title="Past and Upcoming Events"
+            to="/events"
             onClick={onClick}
           >
-            <h6 className={classes.navLink}>READINGS</h6>
+            <h6 className={classes.navLink}>EVENTS</h6>
           </NavLink>
         </div>
         <div className="col-md-3">

@@ -1,4 +1,4 @@
-export type Reading = {
+export type Event = {
     url?: string,
     date: string,
     time?: string,
@@ -23,7 +23,7 @@ export type Book = {
     urls: Url[],
     preorder: boolean,
     title: string,
-    type: 'BOOK' | 'CHAPBOOK',
+    type: 'BOOK' | 'CHAPBOOK' | 'ANTHOLOGY',
     img: string,
     quotes: Quote[]
 }

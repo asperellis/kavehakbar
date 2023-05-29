@@ -1,3 +1,3 @@
 export * from './books'
-export * from './readings'
+export * from './events'
 export * from './words'

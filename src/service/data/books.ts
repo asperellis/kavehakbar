@@ -5,6 +5,47 @@ export const books: Book[] = [
     urls: [
       {
         text: 'Penguin',
+        url: 'https://www.penguinrandomhouse.com/books/734476/martyr-by-kaveh-akbar/'
+      },
+      {
+        text: 'Indiebound',
+        url: 'https://bookshop.org/p/books/martyr-kaveh-akbar/20032523?ean=9780593537619'
+      },
+      {
+        text: 'Amazon',
+        url: 'https://www.amazon.com/Martyr-novel-Kaveh-Akbar/dp/0593537610/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1684259770&sr=8-1'
+      },
+      {
+        text: 'Second Flight Books',
+        url: 'https://main-street-books.com/item/wCIDqQu6pg983tlQvzv0ew'
+      }
+    ],
+    preorder: false,
+    type: 'BOOK',
+    title: 'Martyr!',
+    img: 'martyr',
+    quotes: [
+      {
+        quote: 'I haven\'t loved a book this much in years.',
+        speaker: 'Tommy Orange',
+        publication: ''
+      },
+      {
+        quote: 'Brilliant and blistering alive.',
+        speaker: 'John Green',
+        publication: ''
+      },
+      {
+        quote: 'The best novel you\'ll ever read about the joy of language addiction, displaceent, martyrdom, belonging, homesickness.',
+        speaker: 'Lauren Groff',
+        publication: ''
+      }
+    ]
+  },
+  {
+    urls: [
+      {
+        text: 'Penguin',
         url: 'https://www.penguin.co.uk/books/312973/the-penguin-book-of-spiritual-verse/9780241391587'
       },
       {
@@ -17,7 +58,7 @@ export const books: Book[] = [
       }
     ],
     preorder: false,
-    type: 'BOOK',
+    type: 'ANTHOLOGY',
     title: 'The Penguin Book of Spiritual Verse',
     img: 'spiritual-verse',
     quotes: [

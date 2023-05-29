@@ -68,7 +68,7 @@ p a:hover {
   text-decoration: underline;
 }
 
-.readings div a {
+.events div a {
   text-decoration: none;
 }
 
@@ -137,21 +137,21 @@ article.book button {
   min-width: 250px;
 }
 
-article.book:first-of-type .row > div:first-child {
-  order: 2;
-}
-
-article.book:first-of-type .row > div:last-child {
+article.book .row .col-cover {
   order: 1;
 }
 
+article.book .row .col-text {
+  order: 2;
+}
+
 @media (min-width: 768px) {
-  article.book:first-of-type .row > div:first-child {
+  article.book .row .col-cover {
     order: 1;
   }
-
-  article.book:first-of-type .row > div:last-child {
-    order: 2;
+  
+  article.book .row .col-text {
+    order: 1;
   }
 }
 
@@ -200,14 +200,14 @@ article.book:first-of-type .row > div:last-child {
 
 p + .section-title,
 p + .section-header,
-.reading + .section-header {
+.event + .section-header {
   margin-top: 15px;
 }
 
 @media (min-width: 768px) {
   p + .section-title,
   p + .section-header,
-  .reading + .section-header {
+  .event + .section-header {
     margin-top: 30px;
   }
 }
@@ -250,23 +250,23 @@ p + .section-header,
   row-gap: 30px;
 }
 
-.reading-date {
+.event-date {
   margin-right: 15px;
   width: 100px;
   min-width: 100px;
 }
 
-.reading-info > h6 {
+.event-info > h6 {
   color: #e76225;
 }
 
-.reading-info p:not(:last-of-type) {
+.event-info p:not(:last-of-type) {
   margin-bottom: 0;
   line-height: 1.25;
 }
 
 @media (min-width: 768px) {
-  .reading-date {
+  .event-date {
     min-width: 160px;
   }
 

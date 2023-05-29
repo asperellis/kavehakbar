@@ -12,7 +12,7 @@ export const Footer = () => {
           <footer className={classes.footer}>
             <div className={classes.footerContent}>
               <div className={classes.legal}>
-                <div>© 2022 KAVEH AKBAR - ALL RIGHTS RESERVED</div>
+                <div>© 2023 KAVEH AKBAR - ALL RIGHTS RESERVED</div>
               </div>
               <div>
                 <Email />

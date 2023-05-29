@@ -9,7 +9,7 @@ export const Header = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const nav = createRef<HTMLDivElement>();
   
-  const handleClickOutside = (event) => {
+  const handleClickOutside = (event: any) => {
     if (nav.current && !nav.current.contains(event.target)) {
       if (mobileNavOpen) {
         setMobileNavOpen(false)
@@ -36,7 +36,7 @@ export const Header = () => {
               <h1 className={classes.logo}>KAVEH<br className="hidden-sm-down" />AKBAR</h1>
             </Link>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 position-relative">
             <div className="row hidden-md-up">
               <div className="col-md-12">
                 <nav ref={nav}>

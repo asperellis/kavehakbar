@@ -8,13 +8,15 @@ import portaitOfTheAlcoholicCover from '../../images/portait-of-the-alcoholic.jp
 import pilgrimBellCover from '../../images/pilgrim-bell.jpg';
 import spiritualVerseCover from '../../images/spiritual-verse.jpg';
 import martyrCover from '../../images/martyr.jpg';
+import anotherLastCallCover from '../../images/another-last-call.jpg';
 
 const COVERS: Record<string, string> = {
   "calling-a-wolf-a-wolf": callingAWolfAWolfCover,
   "portait-of-the-alcoholic": portaitOfTheAlcoholicCover,
   "pilgrim-bell": pilgrimBellCover,
   "spiritual-verse": spiritualVerseCover,
-  "martyr": martyrCover
+  "martyr": martyrCover,
+  "another-last-call": anotherLastCallCover
 };
 
 export const Books = () => (

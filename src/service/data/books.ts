@@ -20,7 +20,7 @@ export const books: Book[] = [
         url: 'https://main-street-books.com/item/wCIDqQu6pg983tlQvzv0ew'
       }
     ],
-    preorder: false,
+    preorder: true,
     type: 'BOOK',
     title: 'Martyr!',
     img: 'martyr',
@@ -31,7 +31,7 @@ export const books: Book[] = [
         publication: ''
       },
       {
-        quote: 'Brilliant and blistering alive.',
+        quote: '"So stunning, so wrenching, and so beautifully written that reading it for the first time, I kept forgetting to breathe. I will carry this story, and the people in it, with me for the rest of my life.',
         speaker: 'John Green',
         publication: ''
       },
@@ -40,6 +40,30 @@ export const books: Book[] = [
         speaker: 'Lauren Groff',
         publication: ''
       }
+    ]
+  },
+  {
+    urls: [
+      {
+        text: 'Sarabande Books',
+        url: 'https://www.sarabandebooks.org/titles-20192039/another-last-call-poems-on-addiction-deliverence-edited-by-kaveh-akbar-and-paige-lewis'
+      } 
+    ],
+    preorder: true,
+    type: 'ANTHOLOGY',
+    title: 'Another Last Call: Poems on Addiction & Deliverance',
+    img: 'another-last-call',
+    quotes: [
+      {
+        quote: 'Why do I feel so at home among the poems and poets of <em>Another Last Call: Poems on Addiction & Deliverance</em>? There is nothing more human, haunted, humbling, and bottom line, than the desire that fuels addiction and recovery—and poetry. In reading this brilliant anthology, I feel less alone. I\'ve found my people.',
+        speaker: 'Diane Seuss',
+        publication: ''
+      },
+      {
+        quote: 'What better gift to all of us than this wide and deep collection of poems about what enriches all our humanity, the desire to move through each day with that clarity we call sobriety, and how that helps all of us to be more fully human.',
+        speaker: 'Afaa M. Weaver',
+        publication: ''
+      },
     ]
   },
   {
@@ -109,7 +133,7 @@ export const books: Book[] = [
     img: 'pilgrim-bell',
     quotes: [
       {
-        quote: '<em>Pilgrim Bell</em> is bracing in its honesty and noteworthy in its steadfast adherence to finding the spiritual in even the most mundane settings. Akbar’s mesmerizing dexterity with language is at its most compelling when he is relentlessly pursuing the truth―a hunt that’s present in every poem in this volume.',
+        quote: '<em>Pilgrim Bell</em> is bracing in its honesty and noteworthy in its steadfast adherence to finding the spiritual in even the most mundane settings. Akbar\'s mesmerizing dexterity with language is at its most compelling when he is relentlessly pursuing the truth―a hunt that\'s present in every poem in this volume.',
         speaker: '',
         publication: 'TIME'
       },

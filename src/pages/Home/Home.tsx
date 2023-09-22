@@ -42,8 +42,10 @@ export const Home = () => {
             <div className="row">
               <div className="col-lg-6">
                 <p>&ldquo;I can't remember the last time a book made me feel like this.&rdquo;<br/>-<strong>Clint Smith</strong></p>
-                <p>&ldquo;Wise and wise-assed.&rdquo;<br />—<strong>Mary Karr</strong></p>
-                <p>&ldquo;Brilliant and blistering alive.&rdquo;<br />—<strong>John Green</strong></p>
+                <p>&ldquo;Kaveh Akbar has given birth to a hilarious marvel of a novel. Rip-roaringly funny. Wise and wise-assed.&rdquo;<br />—<strong>Mary Karr</strong></p>
+                <p>&ldquo;"So stunning, so wrenching, and so beautifully written that reading it for the first time, I kept forgetting to breathe. I will carry this story, and the people in it, with me for the rest of my life.&rdquo;<br />—<strong>John Green</strong></p>
+                <p>&ldquo;"Kaveh Akbar renders the full spectrum of life, and death, with great beauty and care.&rdquo;<br />—<strong>Raven Leilani</strong></p>
+                
               </div>
               <div className="col-lg-6">
                 <p>&ldquo;I haven't loved a book this much in years.&rdquo;<br/>-<strong>Tommy Orange</strong></p>

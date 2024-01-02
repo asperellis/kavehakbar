@@ -1,11 +1,11 @@
-import React from 'react';
-import eventsImg from '../../images/events.jpg';
-import { getEvents } from '../../service'; 
+import React from "react";
+import eventsImg from "../../images/events.jpg";
+import { getEvents } from "../../service";
 
-const events = getEvents()
+const events = getEvents();
 
 export const Events = () => (
-  <section className='events'>
+  <section className="events">
     <div className="container">
       <div className="row">
         <div className="col-md-4">
@@ -17,15 +17,29 @@ export const Events = () => (
         </div>
         <div className="col-md-8">
           <h6 className="section-header">UPCOMING EVENTS</h6>
-          <p>To set up a reading or speaking engagement, contact <a href="https://www.beotis.com/contact/">Beotis Creative</a>.</p>
-          {events.length ?
+          <p>
+            To set up a reading or speaking engagement, contact{" "}
+            <a
+              href="mailto:kevin@tuesdayagency.com"
+              title="General Inquiries or booking requests for Kaveh"
+            >
+              The Tuesday Agency
+            </a>
+            .
+          </p>
+          {events.length ? (
             events.map((event, i) => (
-              <a href={event.url || '/events'} title={event.name} key={i}>
+              <a href={event.url || "/events"} title={event.name} key={i}>
                 <div className="event d-flex flex-row">
                   <div className="event-date">
                     <h6>
                       {event.date}
-                      {event.time && (<span><br />at {event.time}</span>)}
+                      {event.time && (
+                        <span>
+                          <br />
+                          at {event.time}
+                        </span>
+                      )}
                     </h6>
                   </div>
                   <div className="event-info">
@@ -36,11 +50,12 @@ export const Events = () => (
                   </div>
                 </div>
               </a>
-              )) :
+            ))
+          ) : (
             <p>Online event schedule to come.</p>
-          }
+          )}
         </div>
       </div>
     </div>
   </section>
-)
+);

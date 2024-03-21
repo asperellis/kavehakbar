@@ -25,7 +25,7 @@ export const Home = () => {
             <div className="col-md-4 col-cover">
               <a
                 href="https://www.penguinrandomhouse.com/books/734476/martyr-by-kaveh-akbar/"
-                title={`Pre-order ${martyr.title}, out January 24`}
+                title={`${martyr.title}, an instant NYT bestseller, is out now!`}
               >
                 <img
                   src={martyrCover}
@@ -37,49 +37,86 @@ export const Home = () => {
             <div className="col-md-8 col-text">
               <h6 className="section-header">NEWS</h6>
               <h2 className="section-title">
-                Pre-order <em>Martyr!</em>, out January 24
+                <em>Martyr!</em>, an instant NYT bestseller, is out now!
               </h2>
               <div className="row">
                 <div className="col-lg-6">
                   <p>
-                    &ldquo;I can't remember the last time a book made me feel
-                    like this.&rdquo;
-                    <br />-<strong>Clint Smith</strong>
+                    &ldquo;Nothing short of miraculous.&rdquo;
+                    <br />
+                    —&nbsp;
+                    <strong>
+                      <em>The New York Times</em>
+                    </strong>
                   </p>
+
+                  <p>
+                    &ldquo;<em>Martyr!</em> is so much its own creation that
+                    comparisons don't help.&rdquo;
+                    <br />
+                    —&nbsp;<strong>NPR</strong>
+                  </p>
+                  <p>
+                    &ldquo;I haven't loved a book this much in years.&rdquo;
+                    <br />
+                    —&nbsp;<strong>Tommy Orange</strong>
+                  </p>
+
                   <p>
                     &ldquo;Kaveh Akbar has given birth to a hilarious marvel of
                     a novel. Rip-roaringly funny. Wise and wise-assed.&rdquo;
-                    <br />—<strong>Mary Karr</strong>
+                    <br />
+                    —&nbsp;<strong>Mary Karr</strong>
                   </p>
                   <p>
-                    &ldquo;"So stunning, so wrenching, and so beautifully
-                    written that reading it for the first time, I kept
-                    forgetting to breathe. I will carry this story, and the
-                    people in it, with me for the rest of my life.&rdquo;
-                    <br />—<strong>John Green</strong>
+                    &ldquo;So stunning, so wrenching, and so beautifully written
+                    that reading it for the first time, I kept forgetting to
+                    breathe.&rdquo;
+                    <br />
+                    —&nbsp;<strong>John Green</strong>
                   </p>
                   <p>
-                    &ldquo;"Kaveh Akbar renders the full spectrum of life, and
+                    &ldquo;Kaveh Akbar renders the full spectrum of life, and
                     death, with great beauty and care.&rdquo;
-                    <br />—<strong>Raven Leilani</strong>
+                    <br />
+                    —&nbsp;<strong>Raven Leilani</strong>
                   </p>
                 </div>
                 <div className="col-lg-6">
                   <p>
-                    &ldquo;I haven't loved a book this much in years.&rdquo;
-                    <br />-<strong>Tommy Orange</strong>
+                    &ldquo;Almost violently artful, full of sentences that stab,
+                    pierce, and slice with their beauty.&rdquo;
+                    <br />
+                    —&nbsp;
+                    <strong>
+                      <em>The New Yorker</em>
+                    </strong>
+                  </p>
+                  <p>
+                    &ldquo;Kaveh Akbar has written one of the best novels I've
+                    ever read.&rdquo;
+                    <br />
+                    —&nbsp;<strong>Karen Russell</strong>
+                  </p>
+                  <p>
+                    &ldquo;I can't remember the last time a book made me feel
+                    like this.&rdquo;
+                    <br />
+                    —&nbsp;<strong>Clint Smith</strong>
                   </p>
                   <p>
                     &ldquo;A fever dream, a reckoning, a heartbreak, a
                     shattering and mending, a delight—its double-helix of dreams
                     and conversation are now part of my own DNA.&rdquo;
-                    <br />—<strong>Leslie Jamison</strong>
+                    <br />
+                    —&nbsp;<strong>Leslie Jamison</strong>
                   </p>
                   <p>
                     &ldquo;The best novel you'll ever read about the joy of
                     language addiction, displaceent, martyrdom, belonging,
                     homesickness.&rdquo;
-                    <br />—<strong>Lauren Groff</strong>
+                    <br />
+                    —&nbsp;<strong>Lauren Groff</strong>
                   </p>
                 </div>
               </div>
@@ -277,7 +314,8 @@ export const Home = () => {
                     varied collection helps the reader pick up the threads of
                     continuity through immense cultural diversities, without
                     reducing any of these texts to blandness.&rdquo;
-                    <br />-
+                    <br />
+                    —&nbsp;{" "}
                     <em>
                       <strong>The Times Literary Supplement</strong>
                     </em>

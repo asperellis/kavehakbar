@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { Email } from '../../components';
+import { Email } from "../../components";
 
-import * as classes from './footer.module.css';
+import * as classes from "./footer.module.css";
 
 export const Footer = () => {
   return (
@@ -12,7 +12,7 @@ export const Footer = () => {
           <footer className={classes.footer}>
             <div className={classes.footerContent}>
               <div className={classes.legal}>
-                <div>© 2023 KAVEH AKBAR - ALL RIGHTS RESERVED</div>
+                <div>© 2024 KAVEH AKBAR - ALL RIGHTS RESERVED</div>
               </div>
               <div>
                 <Email />
@@ -23,4 +23,4 @@ export const Footer = () => {
       </div>
     </div>
   );
-}
+};

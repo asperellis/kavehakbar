@@ -20,18 +20,28 @@ export const books: Book[] = [
         url: 'https://main-street-books.com/item/wCIDqQu6pg983tlQvzv0ew'
       }
     ],
-    preorder: true,
+    preorder: false,
     type: 'BOOK',
     title: 'Martyr!',
     img: 'martyr',
     quotes: [
+      {
+        quote: 'Nothing short of miraculous.',
+        speaker: '',
+        publication: 'The New York Times'
+      },
+      { 
+        quote: 'Almost violently artful, full of sentences that stab, pierce, and slice with their beauty.',
+        speaker: '',
+        publication: 'The New Yorker'
+      },
       {
         quote: 'I haven\'t loved a book this much in years.',
         speaker: 'Tommy Orange',
         publication: ''
       },
       {
-        quote: '"So stunning, so wrenching, and so beautifully written that reading it for the first time, I kept forgetting to breathe. I will carry this story, and the people in it, with me for the rest of my life.',
+        quote: 'So stunning, so wrenching, and so beautifully written that reading it for the first time, I kept forgetting to breathe. I will carry this story, and the people in it, with me for the rest of my life.',
         speaker: 'John Green',
         publication: ''
       },
@@ -49,7 +59,7 @@ export const books: Book[] = [
         url: 'https://www.sarabandebooks.org/titles-20192039/another-last-call-poems-on-addiction-deliverence-edited-by-kaveh-akbar-and-paige-lewis'
       } 
     ],
-    preorder: true,
+    preorder: false,
     type: 'ANTHOLOGY',
     title: 'Another Last Call: Poems on Addiction & Deliverance',
     img: 'another-last-call',

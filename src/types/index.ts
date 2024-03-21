@@ -9,7 +9,7 @@ export type Event = {
 }
 
 export type Url = {
-    text: string,
+    text: React.ReactNode,
     url: string
 }
 
@@ -29,13 +29,13 @@ export type Book = {
 }
 
 export type Article = {
-    title: string,
+    title: React.ReactNode,
     url: string,
-    publication: string
+    publication: React.ReactNode
 }
 
 export type Review = {
-    title: string
+    title: React.ReactNode
     reviews: Article[]
 }
 

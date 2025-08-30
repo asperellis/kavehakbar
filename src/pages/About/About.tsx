@@ -12,66 +12,58 @@ export const About = () => (
           <h6 className="section-header">ABOUT KAVEH</h6>
 
           <p>
-            Kaveh Akbar's poems appear in{" "}
-            <em>
-              The New Yorker, The New York Times, Paris Review, Best American
-              Poetry
-            </em>
-            , and elsewhere. He is the author of two poetry collections:{" "}
-            <a href="https://www.graywolfpress.org/books/pilgrim-bell">
+            Kaveh Akbar is the <em>New York Times</em> bestselling author of the
+            novel{" "}
+            <a href="https://www.penguinrandomhouse.com/books/734476/martyr-by-kaveh-akbar/">
+              <em>Martyr!</em>
+            </a>
+            —a finalist for the National Book Award and one of the{" "}
+            <em>New York Times</em> Ten Best Books of the Year—and two books of
+            poetry:{" "}
+            <a href="https://www.amazon.com/Pilgrim-Bell-Poems-Kaveh-Akbar/dp/1644450593/ref=sr_1_1?crid=9T045KO8TY0O&keywords=Pilgrim+Bell&qid=1661542344&sprefix=pilgrim+bell%2Caps%2C178&sr=8-1">
               <em>Pilgrim Bell</em>
             </a>{" "}
-            (Graywolf 2021) and{" "}
-            <a
-              href="http://alicejamesbooks.org/ajb-titles/calling-a-wolf-a-wolf/"
-              title="Calling A Wolf A Wolf"
-            >
+            and{" "}
+            <a href="https://www.amazon.com/Calling-Wolf-Kaveh-Akbar/dp/1938584678/ref=sr_1_1?crid=1HTYNCYWNO3TE&keywords=Calling+a+Wolf+a+Wolf&qid=1661542492&sprefix=calling+a+wolf+a+wolf%2Caps%2C116&sr=8-1">
               <em>Calling a Wolf a Wolf</em>
-            </a>{" "}
-            (Alice James 2017), in addition to a chapbook,{" "}
-            <a
-              href="http://siblingrivalrypress.bigcartel.com/product/portrait-of-the-alcoholic-by-kaveh-akbar"
-              title="Portrait of the Alcoholic"
-            >
+            </a>
+            . He is also the author of a chapbook,{" "}
+            <a href="https://www.amazon.com/Portrait-Alcoholic-Kaveh-Akbar/dp/1943977275/ref=sr_1_1?crid=ER8SF9L5ZFK4&keywords=Portrait+of+the+Alcoholic&qid=1661542537&sprefix=portrait+of+the+alcoholic%2Caps%2C83&sr=8-1">
               <em>Portrait of the Alcoholic</em>
             </a>{" "}
-            (Sibling Rivalry 2016). He is also the editor of{" "}
-            <a
-              href="https://www.penguin.co.uk/books/312973/the-penguin-book-of-spiritual-verse/9780241391587"
-              title="The Penguin Book of Spiritual Verse: 100 Poets on the Divine"
-            >
+            and editor of{" "}
+            <a href="https://www.amazon.com/Penguin-Spiritual-Divine-Classics-anglais/dp/024139158X/ref=sr_1_1?crid=IQ6CTTMNUEZ2&keywords=The+Penguin+Book+of+Spiritual+Verse%3A+110+Poets+on+the+Divine&qid=1661542591&sprefix=the+penguin+book+of+spiritual+verse+110+poets+on+the+divine%2Caps%2C87&sr=8-1">
               <em>
-                The Penguin Book of Spiritual Verse: 100 Poets on the Divine
+                The Penguin Book of Spiritual Verse: 110 Poets on the Divine
               </em>
             </a>{" "}
-            (Penguin Classics 2022). In 2024,{" "}
-            <a
-              href="https://www.penguinrandomhouse.com/books/734476/martyr-by-kaveh-akbar/"
-              title="Penguin Random House: Martyr! A NOVEL By Kaveh Akbar"
-            >
-              Knopf will publish <em>Martyr!</em>
+            and, with Paige Lewis, co-editor of{" "}
+            <a href="https://www.sarabandebooks.org/all-titles/p/another-last-call-poems-on-addiction-deliverance-edited-by-kaveh-akbar-and-paige-lewis">
+              <em>Another Last Call: Poems on Addiction and Deliverance</em>
             </a>
-            , Kaveh's first novel.
+            .
           </p>
           <p>
-            In 2020 Kaveh was named Poetry Editor of{" "}
-            <a href="https://www.thenation.com/content/poems/">
-              <em>The Nation</em>
-            </a>
-            . The recipient of honors including multiple Pushcart Prizes, a
-            Civitella Ranieri Foundation Fellowship, and the Levis Reading
-            Prize, Kaveh was born in Tehran, Iran, and teaches at the University
-            of Iowa and in the low-residency MFA programs at Randolph College
-            and Warren Wilson. In 2014, Kaveh founded{" "}
+            Kaveh is the recipient of fellowships from the John Simon Guggenheim
+            Memorial Foundation, Poetry Foundation, Civitella Ranieri, and
+            elsewhere, and has been awarded the American Academy of Arts and
+            Letters Rosenthal Family Foundation Award, the Brooklyn Public
+            Library Book Prize, the Levis Reading Prize, multiple Pushcart
+            Prizes, and named one of the TIME 100 Next.
+          </p>
+          <p>
+            Kaveh's writing appears in the <em>New Yorker</em>, the{" "}
+            <em>New York Times</em>, <em>Paris Review</em>,{" "}
+            <em>New Republic</em>, <em>GQ</em>, <em>The Atlantic</em>,{" "}
+            <em>Best American Poetry</em>, <em>Best American Sportswriting</em>,
+            and elsewhere. He was the founding editor of{" "}
             <a href="http://www.divedapper.com/" title="Divedapper">
               <em>Divedapper</em>
             </a>
-            , a home for dialogues with the most vital voices in American
-            poetry. With Sarah Kay and Claire Schwartz, he wrote a weekly column
-            for the <em>Paris Review</em> called{" "}
-            <a href="https://www.theparisreview.org/blog/category/columns/poetry-rx/">
-              "Poetry RX."
-            </a>
+            , and since 2020, has served as poetry editor for{" "}
+            <em>The Nation</em>. Born in Tehran, Iran, Kaveh is the Roy J.
+            Carver Professor of English at the University of Iowa. His work has
+            been translated into over thirty languages.
           </p>
           <p>
             <span className="bold">SPEAKING/GENERAL INQUIRIES</span>:{" "}

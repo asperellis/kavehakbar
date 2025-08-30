@@ -76,10 +76,10 @@ export const Home = () => {
                     —&nbsp;<strong>John Green</strong>
                   </p>
                   <p>
-                    &ldquo;Kaveh Akbar renders the full spectrum of life, and
-                    death, with great beauty and care.&rdquo;
+                    &ldquo;This is a major novel that, like all major novels,
+                    doesn't quite resemble anything else you've read.&rdquo;
                     <br />
-                    —&nbsp;<strong>Raven Leilani</strong>
+                    —&nbsp;<strong>Michael Cunningham</strong>
                   </p>
                 </div>
                 <div className="col-lg-6">
